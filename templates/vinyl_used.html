@@ -1,0 +1,644 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+
+<div id="product-category" class="container">
+	<ul class="breadcrumb">
+		<li>
+			<a href="https://rekords.net/">
+				<i class="fa fa-home"></i>
+			</a>
+		</li>
+		<li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a>
+		</li>
+		<li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323">Used Vinyl</a>
+		</li>
+	</ul>
+	<div class="row">
+		<aside id="column-left" class="col-sm-3 hidden-xs">
+			<div class="list-group">
+     
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+		   
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item">&nbsp;&nbsp;&nbsp;- New Vinyl</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item active">&nbsp;&nbsp;&nbsp;- Used Vinyl</a> 
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+			</div>
+
+			<div class="swiper-viewport">
+				<div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+					<div class="swiper-wrapper"></div>
+				</div>
+			</div> 
+		</aside>
+
+		<div id="content" class="col-sm-9">
+			<h2>Used Vinyl</h2>
+            <h3>Refine Search</h3>
+            <div class="row">        
+				<div class="col-sm-3">
+					<ul>
+						<li>
+							<a href="$urlapp/used_hiphop_albums">Hip Hop (Albums)</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_hiphop_singles">Hip Hop (EPs &amp; Singles)</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_dansk_hiphop_albums">Dansk Hip Hop (Albums)</a>
+						</li>
+                        <li>
+							<a href="$urlapp//used_dansk_hiphop_singles">Dansk Hip Hop (EP'er &amp; Singler)</a>
+						</li>
+                     </ul>
+				</div>
+                <div class="col-sm-3">
+					<ul>
+						<li>
+							<a href="$urlapp/used_beats">Beats</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_hiphop_sued_norveg">Swedish &amp; Norwegian Hip Hop</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_djtools">DJ Tools</a>
+						</li>
+                        <li>
+							<a href="urlapp/used_electro_hiphop">Electro &amp; Ol School Hip Hop</a>
+						</li>
+                    </ul>
+				</div>
+                <div class="col-sm-3">
+					<ul>
+						<li>
+							<a href="urlapp/used_electronic">Electronic</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_funk_soul_disco">Funk / Soul / Disco</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_jazz">Jazz</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_library">Library</a>
+						</li>
+					</ul>
+				</div>
+                <div class="col-sm-3">
+					<ul>
+                        <li>
+							<a href="$urlapp/used_rock_pop">Rock &amp; Pop</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_world">World &amp; Other</a>
+						</li>
+                        <li>
+							<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_402">Other Genres</a>
+						</li>
+                        <li>
+							<a href="$urlapp/used_reggae_ragga">Reggae / Dancehall / Ragga Hip Hop</a>
+						</li>
+                     </ul>
+				</div>
+			</div>
+			<br>
+            <div class="row">
+				<div class="col-md-2 col-sm-6 hidden-xs">
+					<div class="btn-group btn-group-sm">
+						<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List">
+							<i class="fa fa-th-list"></i>
+						</button>
+						<button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid">
+							<i class="fa fa-th"></i>
+						</button>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6"></div>
+				<div class="col-md-4 col-xs-6">
+					<div class="form-group input-group input-group-sm">
+						<label class="input-group-addon" for="input-sort">Sort By:</label>
+						<select id="input-sort" class="form-control" onchange="location = this.value;">
+		   
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+							 
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+							 
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+              
+              
+						</select>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="form-group input-group input-group-sm">
+						<label class="input-group-addon" for="input-limit">Show:</label>
+						<select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;limit=15" selected="selected">15</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;limit=25">25</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;limit=50">50</option>
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;limit=75">75</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;limit=100">100</option>
+              
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row"> 
+				<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33279">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33279">
+								<img src="https://rekords.net/image/cache/data/33279-228x228.jpg" alt="2 Black 2 Strong MMG - Doin' Hard Time On Planet Earth, LP" title="2 Black 2 Strong MMG - Doin' Hard Time On Planet Earth, LP" class="img-responsive">
+							</a>
+							<img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33279">2 Black 2 Strong MMG - Doin' Hard Time On Planet Earth, LP</a>
+								</h4>
+								<p>Original US. Small price writing on front of sleeve. With printed inner sleeve.</p>
+								<p>Catalog#: 88561-1071-1</p>
+								<p>Press: US</p>
+								<p>Year: 1991</p>
+								<p>Condition: VG+/VG</p>
+								<p class="price">                   DKK150.00 </p>
+							</div>									
+							<div class="button-group">
+								<button type="button" id="button-cart-33279" onclick="cart.add('33279', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-32938">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32938">
+								<img src="https://rekords.net/image/cache/data/32938-228x228.jpg" alt="25 Is Life - Mic-Slaughter, 12&quot;" title="25 Is Life - Mic-Slaughter, 12&quot;" class="img-responsive">
+							</a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32938">25 Is Life - Mic-Slaughter, 12"</a>
+								</h4>
+								<p>Original US. Still in shrinkrwap with hype sticker.</p>
+								<p>Catalog#: KA 781-1</p>
+								<p>Press: US</p>
+								<p>Year: 1994</p>
+								<p>Condition: VG+/VG+ </p>
+								<p class="price">                   DKK40.00</p>
+                            </div>
+							<div class="button-group">
+								<button type="button" id="button-cart-32938" onclick="cart.add('32938', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-30291">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30291">
+								<img src="https://rekords.net/image/cache/data/30291-228x228.jpg" alt="2562 - Kameleon, 12&quot;" title="2562 - Kameleon, 12&quot;" class="img-responsive">
+							</a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30291">2562 - Kameleon, 12"</a>
+								</h4>
+								<p> Tracklist A: Kameleon  B: Channel One </p>
+								<p>Catalog#: TEC016</p>
+								<p>Press: UK</p>
+								<p>Year: 2007</p>
+								<p>Condition: VG+/Generic</p>
+								<p class="price">                   DKK50.00</p>
+                            </div>
+							<div class="button-group">
+								<button type="button" id="button-cart-30291" onclick="cart.add('30291', '1');">
+										<i class="fa fa-shopping-cart"></i> 
+											<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-26147">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=26147">
+								<img src="https://rekords.net/image/cache/data/26147-228x228.jpg" alt="2bak i Munden - 29 Minutters Funk, LP" title="2bak i Munden - 29 Minutters Funk, LP" class="img-responsive">
+							</a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=26147">2bak i Munden - 29 Minutters Funk, LP</a>
+								</h4>
+								<p>Med ”2 Svin Der Gør Dig Til Grin Magasin” promo magasin.</p>
+								<p>Catalog#: DDS-01</p>
+								<p>Press: Denmark</p>
+								<p>Year: 1999</p>
+								<p>Condition: Used: NM/VG+</p>
+								<p class="price">                   DKK300.00</p>
+                            </div>
+							<div class="button-group">
+								<button type="button" id="button-cart-26147" onclick="cart.add('26147', '1');">
+									<i class="fa fa-shopping-cart"></i> 	
+										<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-28989">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=28989">	
+								<img src="https://rekords.net/image/cache/data/28989-228x228.jpg" alt="2nd II None - Let The Rhythm Take You, 12&quot;" title="2nd II None - Let The Rhythm Take You, 12&quot;" class="img-responsive">
+							</a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=28989">2nd II None - Let The Rhythm Take You, 12"</a>
+								</h4>
+								<p>Original US. Strong VG record. Writing on barcode on labe.</p>
+		    					<p>Catalog#: PRO-7373</p>
+								<p>Press: US</p>
+								<p>Year: 1992</p>
+								<p>Condition: VG/VG+</p>
+								<p class="price">                   DKK35.00</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-28989" onclick="cart.add('28989', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33231">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33231">
+								<img src="https://rekords.net/image/cache/data/33231-228x228.jpg" alt="2Pac - California Love, 12&quot;" title="2Pac - California Love, 12&quot;" class="img-responsive">
+							</a>
+							<img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33231">2Pac - California Love, 12"</a>
+								</h4>
+								<p>EU first pressing. Looks unplayed</p>
+								<p>Catalog#: 12 DRW 3</p>
+								<p>Press: UK &amp; Europe</p>
+								<p>Year: 1995</p>
+								<p>Condition: NM/VG+</p>
+								<p class="price">                   DKK200.00</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-33231" onclick="cart.add('33231', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-32251">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32251">
+								<img src="https://rekords.net/image/cache/data/32251-228x228.jpg" alt="2Pac - Holler If Ya Hear Me, 12&quot;, Promo" title="2Pac - Holler If Ya Hear Me, 12&quot;, Promo" class="img-responsive">
+							</a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32251">2Pac - Holler If Ya Hear Me, 12", Promo</a>
+								</h4>
+								<p>Original US Promo</p>
+		    					<p>Catalog#: DMD 1961</p>
+								<p>Press: US</p>
+								<p>Year: 1993</p>
+								<p>Condition: VG+/Generic</p>
+								<p class="price">                   DKK100.00</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-32251" onclick="cart.add('32251', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33327">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33327">
+								<img src="https://rekords.net/image/cache/data/33327-228x228.jpg" alt="2Pac - How Do U Want It, 12&quot;" title="2Pac - How Do U Want It, 12&quot;" class="img-responsive">
+							</a>
+							<img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33327">2Pac - How Do U Want It, 12"</a>
+								</h4>
+								<p>Original US. Still in shrinkwrap with hype sticker.</p>
+								<p>Catalog#: 422-854 653-1</p>
+								<p>Press: US</p>
+								<p>Year: 1996</p>
+								<p>Condition: VG+/EX</p>
+								<p class="price">                   DKK150.00</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-33327" onclick="cart.add('33327', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-30179">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30179">
+								<img src="https://rekords.net/image/cache/data/30179-228x228.jpg" alt="3-2 - Comin Down, 12&quot;, Promo" title="3-2 - Comin Down, 12&quot;, Promo" class="img-responsive">
+							</a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30179">3-2 - Comin Down, 12", Promo</a>
+								</h4>
+								<p></p>
+		    					<p>Catalog#: SPRO-11542</p>
+								<p>Press: US</p>
+								<p>Year: 1996</p>
+								<p>Condition: NM/VG+</p>
+								<p class="price">                   DKK150.00 </p>
+                            </div>
+							<div class="button-group">
+								<button type="button" id="button-cart-30179" onclick="cart.add('30179', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33280">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33280">
+								<img src="https://rekords.net/image/cache/data/33280-228x228.jpg" alt="3rd Bass - 3rd Bass Theme A.K.A. Portrait Of The Artist As A Hood, 12&quot;" title="3rd Bass - 3rd Bass Theme A.K.A. Portrait Of The Artist As A Hood, 12&quot;" class="img-responsive">
+							</a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33280">3rd Bass - 3rd Bass Theme A.K.A. Portrait Of The Artist As A Hood, 12"</a>
+								</h4>
+								<p>Original US. Sealed copy! Punchhole in sleeve.</p>
+		    					<p>Catalog#: 44-73918</p>
+								<p>Press: US</p>
+								<p>Year: 1991</p>
+								<p>Condition: M/VG+</p>
+								<p class="price">                   DKK150.00 </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-33280" onclick="cart.add('33280', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+					<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="product-thumb">
+							<div class="image" id="image-33290">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33290">
+									<img src="https://rekords.net/image/cache/data/33290-228x228.jpg" alt="3rd Bass - Derelicts Of Dialect, 2xLP" title="3rd Bass - Derelicts Of Dialect, 2xLP" class="img-responsive">
+								</a>
+								<img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33290">3rd Bass - Derelicts Of Dialect, 2xLP</a>
+									</h4>
+									<p>Original US. Still in shrinkwrap with hype sticker. With printed inner sleeves. Punchhole in sleeve.</p>
+		    						<p>Catalog#: C2 47369</p>
+									<p>Press: US</p>
+									<p>Year: 1991</p>
+									<p>Condition: EX/VG+</p>
+									<p class="price">                   DKK250.00 </p>
+                                </div>
+								<div class="button-group">
+									<button type="button" id="button-cart-33290" onclick="cart.add('33290', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+										<i class="fa fa-shopping-cart"></i> 
+											<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="product-thumb">
+							<div class="image" id="image-30187">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30187">
+									<img src="https://rekords.net/image/cache/data/30187-228x228.jpg" alt="3rd Bass - Derelicts Of Dialect, 2xLP" title="3rd Bass - Derelicts Of Dialect, 2xLP" class="img-responsive">
+								</a>
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30187">3rd Bass - Derelicts Of Dialect, 2xLP</a>
+									</h4>
+									<p>Original US. With printed inner sleeves. Strong VG+ records and strong VG sleeve.</p>
+		    						<p>Catalog#: C2 47369</p>
+									<p>Press: US</p>
+									<p>Year: 1991</p>
+									<p>Condition: VG+/VG</p>
+									<p class="price">                   DKK200.00</p>
+								</div>
+								<div class="button-group">
+									<button type="button" id="button-cart-30187" onclick="cart.add('30187', '1');">
+										<i class="fa fa-shopping-cart"></i> 
+											<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="product-thumb">
+							<div class="image" id="image-32904">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32904">
+									<img src="https://rekords.net/image/cache/data/32904-228x228.jpg" alt="3rd Bass - Pop Goes The Weasel, 12&quot;" title="3rd Bass - Pop Goes The Weasel, 12&quot;" class="img-responsive">
+								</a>
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32904">3rd Bass - Pop Goes The Weasel, 12"</a>
+									</h4>
+									<p>Original US.</p>
+		    						<p>Catalog#: 44-73702</p>
+									<p>Press: US</p>
+									<p>Year: 1991</p>
+									<p>Condition: VG+/VG</p>
+									<p class="price">                   DKK40.00</p>
+									
+								</div>
+								<div class="button-group">
+									<button type="button" id="button-cart-32904" onclick="cart.add('32904', '1');">
+										<i class="fa fa-shopping-cart"></i> 
+											<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="product-thumb">
+							<div class="image" id="image-31613">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=31613">
+									<img src="https://rekords.net/image/cache/data/31613-228x228.jpg" alt="415 - Groupie A- - B- - - - / Snitches &amp; B- - - - - -, 12&quot;, Promo" title="415 - Groupie A- - B- - - - / Snitches &amp; B- - - - - -, 12&quot;, Promo" class="img-responsive">
+								</a>
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=31613">415 - Groupie A- - B- - - - / Snitches &amp; B- - - - - -, 12", Promo</a>
+									</h4>
+									<p>Original US Promo.</p>
+		    						<p>Catalog#: BLR-3325</p>
+									<p>Press: US</p>
+									<p>Year: 1990</p>
+									<p>Condition: VG+/Generic</p>
+									<p class="price">                   DKK150.00  </p>
+                                </div>
+								<div class="button-group">
+									<button type="button" id="button-cart-31613" onclick="cart.add('31613', '1');">
+										<i class="fa fa-shopping-cart"></i> 
+											<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="product-thumb">
+							<div class="image" id="image-32702">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32702">
+									<img src="https://rekords.net/image/cache/data/32702-228x228.jpg" alt="50 Cent - Wanksta, 12&quot;, Promo" title="50 Cent - Wanksta, 12&quot;, Promo" class="img-responsive">
+								</a>
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32702">50 Cent - Wanksta, 12", Promo</a>
+									</h4>
+									<p>EU Promo</p>
+									<p>Catalog#: 50CVP1</p>
+									<p>Press: Europe</p>
+									<p>Year: 2002</p>
+									<p>Condition: NM/VG</p>
+									<p class="price">                   DKK40.00 </p>
+								</div>
+								<div class="button-group">
+									<button type="button" id="button-cart-32702" onclick="cart.add('32702', '1');">
+										<i class="fa fa-shopping-cart"></i> 
+											<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+			</div>
+				<div class="row">
+					<div class="col-sm-6 text-left">
+						<ul class="pagination">
+							<li class="active">
+								<span>1</span>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=2">2</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=3">3</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=4">4</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=5">5</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=6">6</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=7">7</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=8">8</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=9">9</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=2">&gt;</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323&amp;page=147">&gt;|</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 text-right">Showing 1 to 15 of 2204 (147 Pages)</div>
+				</div>
+		</div>
+    </div>
+</div>

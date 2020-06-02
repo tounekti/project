@@ -1,0 +1,428 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+<div id="product-category" class="container">
+	<ul class="breadcrumb">
+		<li>
+			<a href="https://rekords.net/">
+				<i class="fa fa-home"></i>
+			</a>
+		</li>
+        <li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a>
+		</li>
+        <li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323">Used Vinyl</a>
+		</li>
+        <li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71">Dansk Hip Hop (EP'er &amp; Singler)</a>
+		</li>
+	</ul>
+	<div class="row">
+		<aside id="column-left" class="col-sm-3 hidden-xs">
+			<div class="list-group">
+     
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+       
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item">&nbsp;&nbsp;&nbsp;- New Vinyl</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item active">&nbsp;&nbsp;&nbsp;- Used Vinyl</a> 
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+			</div>
+
+			<div class="swiper-viewport">
+				<div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+					<div class="swiper-wrapper"></div>
+				</div>
+			</div>
+		</aside>
+
+		<div id="content" class="col-sm-9">
+			<h2>Dansk Hip Hop (EP'er &amp; Singler)</h2>
+			<div class="row">
+				<div class="col-md-2 col-sm-6 hidden-xs">
+					<div class="btn-group btn-group-sm">
+						<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List">
+							<i class="fa fa-th-list"></i>
+						</button>
+						<button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid">
+							<i class="fa fa-th"></i>
+						</button>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6"></div>
+				<div class="col-md-4 col-xs-6">
+					<div class="form-group input-group input-group-sm">
+						<label class="input-group-addon" for="input-sort">Sort By:</label>
+						<select id="input-sort" class="form-control" onchange="location = this.value;">
+         
+              
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+								
+							 
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+							  
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+							 
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+							  
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+			
+						</select>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="form-group input-group input-group-sm">
+					<label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-27630"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27630"><img src="https://rekords.net/image/cache/data/27630-228x228.jpg" alt="All Earz - The Great Conjunction, 7&quot;" title="All Earz - The Great Conjunction, 7&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27630">All Earz - The Great Conjunction, 7"</a></h4>
+                <p></p>
+		    								<p>Catalog#: ODD 005</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2012</p>
+												<p>Condition: NM/NM</p>
+				                                <p class="price">                   DKK40.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-27630" onclick="cart.add('27630', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-8712"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=8712"><img src="https://rekords.net/image/cache/data/8712-228x228.jpg" alt="Boulevard Connection, The - Live From Copenhagen, 12&quot;, Promo" title="Boulevard Connection, The - Live From Copenhagen, 12&quot;, Promo" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=8712">Boulevard Connection, The - Live From Copenhagen, 12", Promo</a></h4>
+                <p>&nbsp;</p>
+		    								<p>Catalog#: none</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2000</p>
+												<p>Condition: Used: VG+/Ge</p>
+				                                <p class="price">  <span class="price-new">DKK100.00</span> <span class="price-old">DKK150.00</span>                                  </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-8712" onclick="cart.add('8712', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-23643"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=23643"><img src="https://rekords.net/image/cache/data/23643-228x228.jpg" alt="Capione - The Poets Cry EP, 12&quot;, EP" title="Capione - The Poets Cry EP, 12&quot;, EP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=23643">Capione - The Poets Cry EP, 12", EP</a></h4>
+                <p>New &amp; Sealed copy.</p>
+		    								<p>Catalog#: CAP001</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2005</p>
+												<p>Condition: Used: M/VG+</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-23643" onclick="cart.add('23643', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33404"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33404"><img src="https://rekords.net/image/cache/data/33404-228x228.jpg" alt="Chancho &amp; Mighty Mala Møder Ham Der Hasse - Cykeltur / Offentlig Transport, 7&quot;" title="Chancho &amp; Mighty Mala Møder Ham Der Hasse - Cykeltur / Offentlig Transport, 7&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33404">Chancho &amp; Mighty Mala Møder Ham Der Hasse - Cykeltur / Offentlig Transport, 7"</a></h4>
+                <p>Uafspillet</p>
+		    								<p>Catalog#: #7</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2012</p>
+												<p>Condition: NM/NM</p>
+				                                <p class="price">                   DKK250.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33404" onclick="cart.add('33404', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33405"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33405"><img src="https://rekords.net/image/cache/data/33405-228x228.jpg" alt="Chancho &amp; Mighty Mala Møder Ham Der Hasse - Cykeltur / Offentlig Transport, 7&quot;" title="Chancho &amp; Mighty Mala Møder Ham Der Hasse - Cykeltur / Offentlig Transport, 7&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33405">Chancho &amp; Mighty Mala Møder Ham Der Hasse - Cykeltur / Offentlig Transport, 7"</a></h4>
+                <p>Uafspillet</p>
+		    								<p>Catalog#: #7</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2012</p>
+												<p>Condition: NM/NM</p>
+				                                <p class="price">                   DKK250.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33405" onclick="cart.add('33405', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-18807"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=18807"><img src="https://rekords.net/image/cache/data/18807-228x228.jpg" alt="Claesson - Sky High, 7&quot;" title="Claesson - Sky High, 7&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=18807">Claesson - Sky High, 7"</a></h4>
+                <p>Great instrumental release by Claesson aka DJ Blaze aka Upskiboo og Stylus Force. In white generic sleeve with Stylus Force stamp.</p>
+		    								<p>Catalog#: SF 006</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2002</p>
+												<p>Condition: Used: EX/VG+</p>
+				                                <p class="price">                   DKK350.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-18807" onclick="cart.add('18807', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-18808"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=18808"><img src="https://rekords.net/image/cache/data/18808-228x228.jpg" alt="Claesson - Sky High, 7&quot;" title="Claesson - Sky High, 7&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=18808">Claesson - Sky High, 7"</a></h4>
+                <p>Great instrumental release by Claesson aka DJ Blaze aka Upskiboo og Stylus Force.</p>
+		    								<p>Catalog#: SF 006</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2002</p>
+												<p>Condition: Used: VG+/Ge</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-18808" onclick="cart.add('18808', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-18721"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=18721"><img src="https://rekords.net/image/cache/data/18721-228x228.jpg" alt="Creative - Creatively Wise / Networking, 12&quot;, 33 ⅓ RPM, Limited Edition" title="Creative - Creatively Wise / Networking, 12&quot;, 33 ⅓ RPM, Limited Edition" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=18721">Creative - Creatively Wise / Networking, 12", 33 ⅓ RPM, Limited Edition</a></h4>
+                <p>Limited pressing on clear green vinyl. Sleeve still in shrinkwrap.</p>
+		    								<p>Catalog#: TBC-12-002</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2000</p>
+												<p>Condition: Used: NM/VG+</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-18721" onclick="cart.add('18721', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33576"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33576"><img src="https://rekords.net/image/cache/data/33576-228x228.jpg" alt="Danni Toma - Rige Mænds Jakkesæt, 12&quot;, EP" title="Danni Toma - Rige Mænds Jakkesæt, 12&quot;, EP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33576">Danni Toma - Rige Mænds Jakkesæt, 12", EP</a></h4>
+                <p>Uafspillet. Nummereret: 050/170</p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 2014</p>
+												<p>Condition: M/NM</p>
+				                                <p class="price">                   DKK400.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33576" onclick="cart.add('33576', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33369"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33369"><img src="https://rekords.net/image/cache/data/33369-228x228.jpg" alt="Den Gale Pose - D.G. Players, 12&quot;" title="Den Gale Pose - D.G. Players, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33369">Den Gale Pose - D.G. Players, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: 857 3891590</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2001</p>
+												<p>Condition: VG+/Generic</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33369" onclick="cart.add('33369', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32738"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32738"><img src="https://rekords.net/image/cache/data/32738-228x228.jpg" alt="Den Gale Pose - Definitionen Af En Stodder, 12&quot;" title="Den Gale Pose - Definitionen Af En Stodder, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32738">Den Gale Pose - Definitionen Af En Stodder, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: 6 8573873980 6</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2001</p>
+												<p>Condition: VG+/Generic</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32738" onclick="cart.add('32738', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33349"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33349"><img src="https://rekords.net/image/cache/data/33349-228x228.jpg" alt="Den Gale Pose - Definitionen Af En Stodder, 12&quot;" title="Den Gale Pose - Definitionen Af En Stodder, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33349">Den Gale Pose - Definitionen Af En Stodder, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: 6 8573873980 6</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2001</p>
+												<p>Condition: VG/Generic</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33349" onclick="cart.add('33349', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33552"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33552"><img src="https://rekords.net/image/cache/data/33552-228x228.jpg" alt="Den Gale Pose - Definitionen Af En Stodder, 12&quot;" title="Den Gale Pose - Definitionen Af En Stodder, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33552">Den Gale Pose - Definitionen Af En Stodder, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: 6 8573873980 6</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2001</p>
+												<p>Condition: NM/Generic</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33552" onclick="cart.add('33552', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33560"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33560"><img src="https://rekords.net/image/cache/data/33560-228x228.jpg" alt="Den Gale Pose - Spændt Op Til Lir, 12&quot;" title="Den Gale Pose - Spændt Op Til Lir, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33560">Den Gale Pose - Spændt Op Til Lir, 12"</a></h4>
+                <p>Ser uafspillet ud. Lidt bøjet hjørne.</p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 1998</p>
+												<p>Condition: NM/VG</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33560" onclick="cart.add('33560', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33381"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33381"><img src="https://rekords.net/image/cache/data/33381-228x228.jpg" alt="Den Gale Pose - Spændt Op Til Lir, 12&quot;" title="Den Gale Pose - Spændt Op Til Lir, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33381">Den Gale Pose - Spændt Op Til Lir, 12"</a></h4>
+                <p></p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 1998</p>
+												<p>Condition: NM/VG+</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33381" onclick="cart.add('33381', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"><ul class="pagination"><li class="active"><span>1</span></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=2">2</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=3">3</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=4">4</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=5">5</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=6">6</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=7">7</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=8">8</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=9">9</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=2">&gt;</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_71&amp;page=9">&gt;|</a></li></ul></div>
+        <div class="col-sm-6 text-right">Showing 1 to 15 of 134 (9 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>

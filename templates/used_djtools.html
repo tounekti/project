@@ -1,0 +1,400 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+
+ <div id="product-category" class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://rekords.net/"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323">Used Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_419">DJ Tools</a></li>
+      </ul>
+  <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="list-group">
+     
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+       
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item">&nbsp;&nbsp;&nbsp;- New Vinyl</a>
+        <a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item active">&nbsp;&nbsp;&nbsp;- Used Vinyl</a> 
+             <a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+    </div>
+
+    <div class="swiper-viewport">
+  <div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+    <div class="swiper-wrapper"></div>
+  </div>
+</div> </aside>
+
+                <div id="content" class="col-sm-9">
+      <h2>DJ Tools</h2>
+                        <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-sort">Sort By:</label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_419&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32574"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32574"><img src="https://rekords.net/image/cache/data/32574-228x228.jpg" alt="DJ Fingaz - Fundamentals Vol.1, LP" title="DJ Fingaz - Fundamentals Vol.1, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32574">DJ Fingaz - Fundamentals Vol.1, LP</a></h4>
+                <p>Still in shrinkwrap.</p>
+		    								<p>Catalog#: ES-001</p>
+												<p>Press: US</p>
+												<p>Year: 1998</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK50.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32574" onclick="cart.add('32574', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32568"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32568"><img src="https://rekords.net/image/cache/data/32568-228x228.jpg" alt="DJ Fingaz / Mr. Dibbs - Face Off, LP" title="DJ Fingaz / Mr. Dibbs - Face Off, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32568">DJ Fingaz / Mr. Dibbs - Face Off, LP</a></h4>
+                <p>Still in shrinkwrap.</p>
+		    								<p>Catalog#: CERT-002</p>
+												<p>Press: US</p>
+												<p>Year: 1998</p>
+												<p>Condition: VG/VG+</p>
+				                                <p class="price">                   DKK50.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32568" onclick="cart.add('32568', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-26108"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=26108"><img src="https://rekords.net/image/cache/data/26108-228x228.jpg" alt="Dj Goldfingers &amp; Dj Doze - Party Break, 12&quot;" title="Dj Goldfingers &amp; Dj Doze - Party Break, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=26108">Dj Goldfingers &amp; Dj Doze - Party Break, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: PB 001</p>
+												<p>Press: France</p>
+																<p>Condition: Used: EX/VG+</p>
+				                                <p class="price">                   DKK35.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-26108" onclick="cart.add('26108', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32572"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32572"><img src="https://rekords.net/image/cache/data/32572-228x228.jpg" alt="DJ Q-Bert - Limited Edition Rare Hard To Find Dirt Style, LP" title="DJ Q-Bert - Limited Edition Rare Hard To Find Dirt Style, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32572">DJ Q-Bert - Limited Edition Rare Hard To Find Dirt Style, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: HARD 001</p>
+												<p>Press: US</p>
+												<p>Year: 2003</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32572" onclick="cart.add('32572', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32573"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32573"><img src="https://rekords.net/image/cache/data/32573-228x228.jpg" alt="DJ Q-Bert - Limited Edition Rare Hard To Find Dirt Style, LP" title="DJ Q-Bert - Limited Edition Rare Hard To Find Dirt Style, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32573">DJ Q-Bert - Limited Edition Rare Hard To Find Dirt Style, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: HARD 001</p>
+												<p>Press: US</p>
+												<p>Year: 2003</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32573" onclick="cart.add('32573', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32586"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32586"><img src="https://rekords.net/image/cache/data/32586-228x228.jpg" alt="DJ Q-Bert - Needle Thrashers Volume 2: Keeping Legends Alive, 12&quot;" title="DJ Q-Bert - Needle Thrashers Volume 2: Keeping Legends Alive, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32586">DJ Q-Bert - Needle Thrashers Volume 2: Keeping Legends Alive, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: NT-002</p>
+												<p>Press: US</p>
+												<p>Year: 1997</p>
+												<p>Condition: VG/Generic</p>
+				                                <p class="price">                   DKK40.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32586" onclick="cart.add('32586', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32576"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32576"><img src="https://rekords.net/image/cache/data/32576-228x228.jpg" alt="DJ Qbert - Needle Thrashers Omega, 12&quot;" title="DJ Qbert - Needle Thrashers Omega, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32576">DJ Qbert - Needle Thrashers Omega, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: OMEGA 001</p>
+												<p>Press: US</p>
+												<p>Year: 2007</p>
+												<p>Condition: VG/VG+</p>
+				                                <p class="price">                   DKK80.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32576" onclick="cart.add('32576', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32564"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32564"><img src="https://rekords.net/image/cache/data/32564-228x228.jpg" alt="DJ Rectangle - Let The Bass Kick, 12&quot;" title="DJ Rectangle - Let The Bass Kick, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32564">DJ Rectangle - Let The Bass Kick, 12"</a></h4>
+                <p></p>
+		    								<p>Catalog#: TNT 002</p>
+												<p>Press: US</p>
+												<p>Year: 2012</p>
+												<p>Condition: VG/Generic</p>
+				                                <p class="price">                   DKK50.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32564" onclick="cart.add('32564', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32581"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32581"><img src="https://rekords.net/image/cache/data/32581-228x228.jpg" alt="Dj Tedu - Ninety Seconds To Win, 12”" title="Dj Tedu - Ninety Seconds To Win, 12”" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32581">Dj Tedu - Ninety Seconds To Win, 12”</a></h4>
+                <p></p>
+		    								<p>Catalog#: CDR-002</p>
+												<p>Press: Spain</p>
+												<p>Year: 1990</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK50.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32581" onclick="cart.add('32581', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32582"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32582"><img src="https://rekords.net/image/cache/data/32582-228x228.jpg" alt="Dj Tedu - Ninety Seconds To Win, 12”" title="Dj Tedu - Ninety Seconds To Win, 12”" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32582">Dj Tedu - Ninety Seconds To Win, 12”</a></h4>
+                <p></p>
+		    								<p>Catalog#: CDR-002</p>
+												<p>Press: Spain</p>
+												<p>Year: 2017</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK50.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32582" onclick="cart.add('32582', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32580"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32580"><img src="https://rekords.net/image/cache/data/32580-228x228.jpg" alt="Lazy Hand Leroy &amp; Cool Hand Luke - Handthritus, 12”" title="Lazy Hand Leroy &amp; Cool Hand Luke - Handthritus, 12”" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32580">Lazy Hand Leroy &amp; Cool Hand Luke - Handthritus, 12”</a></h4>
+                <p>Still in shrinkwrap.</p>
+		    												<p>Press: US</p>
+												<p>Year: 2016</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK40.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32580" onclick="cart.add('32580', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32566"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32566"><img src="https://rekords.net/image/cache/data/32566-228x228.jpg" alt="The Wax Fondler - Sqratch Fetishes Of The Third Kind, 12&quot;" title="The Wax Fondler - Sqratch Fetishes Of The Third Kind, 12&quot;" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32566">The Wax Fondler - Sqratch Fetishes Of The Third Kind, 12"</a></h4>
+                <p>Still in shrinkwrap.</p>
+		    								<p>Catalog#: DSR 005</p>
+												<p>Press: US</p>
+												<p>Year: 1999</p>
+												<p>Condition: VG/VG+</p>
+				                                <p class="price">                   DKK50.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32566" onclick="cart.add('32566', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"></div>
+        <div class="col-sm-6 text-right">Showing 1 to 12 of 12 (1 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>

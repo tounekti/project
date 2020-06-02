@@ -1,0 +1,460 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+
+
+  
+       <div id="product-category" class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://rekords.net/"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323">Used Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469">Funk / Soul / Disco</a></li>
+      </ul>
+  <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="list-group">
+     
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+       
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item">&nbsp;&nbsp;&nbsp;- New Vinyl</a>
+        <a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item active">&nbsp;&nbsp;&nbsp;- Used Vinyl</a> 
+             <a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+    </div>
+
+    <div class="swiper-viewport">
+  <div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+    <div class="swiper-wrapper"></div>
+  </div>
+</div> </aside>
+
+                <div id="content" class="col-sm-9">
+      <h2>Funk / Soul / Disco</h2>
+                        <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-sort">Sort By:</label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33684"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33684"><img src="https://rekords.net/image/cache/data/33684-228x228.jpg" alt="3D - Space Boogie, 12&quot;, 33 ⅓ RPM" title="3D - Space Boogie, 12&quot;, 33 ⅓ RPM" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33684">3D - Space Boogie, 12", 33 ⅓ RPM</a></h4>
+                <p>Original US. </p>
+		    								<p>Catalog#: DAD-4818</p>
+												<p>Press: US</p>
+												<p>Year: 1984</p>
+												<p>Condition: EX/VG+</p>
+				                                <p class="price">                   DKK500.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33684" onclick="cart.add('33684', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33167"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33167"><img src="https://rekords.net/image/cache/data/33167-228x228.jpg" alt="Alphonze Mouzon - Funky Snakefoot, LP" title="Alphonze Mouzon - Funky Snakefoot, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33167">Alphonze Mouzon - Funky Snakefoot, LP</a></h4>
+                <p>German first pressing</p>
+		    								<p>Catalog#: BST 84 444 I</p>
+												<p>Press: Germany</p>
+												<p>Year: 1974</p>
+												<p>Condition: EX/VG</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33167" onclick="cart.add('33167', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-21259"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=21259"><img src="https://rekords.net/image/cache/data/21259-228x228.jpg" alt="Alton McClain &amp; Destiny - More Of You, LP" title="Alton McClain &amp; Destiny - More Of You, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=21259">Alton McClain &amp; Destiny - More Of You, LP</a></h4>
+                <p>Original US. Sleeve still in shrinkwrap. With picture inner sleeve.</p>
+		    								<p>Catalog#: PD-1-6268</p>
+												<p>Press: US</p>
+												<p>Year: 1980</p>
+												<p>Condition: Used: VG+/NM</p>
+				                                <p class="price">                   DKK60.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-21259" onclick="cart.add('21259', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30337"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30337"><img src="https://rekords.net/image/cache/data/30337-228x228.jpg" alt="Arthur Conley - Sweet Soul Music, LP" title="Arthur Conley - Sweet Soul Music, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30337">Arthur Conley - Sweet Soul Music, LP</a></h4>
+                <p> Tracklist A1: Sweet Soul Music Written-By - Arthur Conley,  Otis Redding  A2: Take Me (Just As I Am) Written-By - Dan Penn,  Linden Oldham  A3: Who's Foolin' Who Written-By - Arthur Conley  A4: There's A Place For Us Written-By - Arthur Conley  A5: I Can't Stop (No, No, No) Written-By - Dan Penn,  Roger Hawkins  B1: Wholesale Love Written-By - Otis Redding  B2: I'm A Lonely Stranger Written-By - Arthur Conley,  Otis Redding  B3: I'm Gonna Forget About You Written-By - Arthur Conley  B4: Let Nothing Separate Us Written-By - Otis Redding  B5: Where You Lead Me Written-By - Arthur Conley,  Otis Redding </p>
+		    								<p>Catalog#: SD 33-215</p>
+												<p>Press: Germany</p>
+												<p>Year: 1967</p>
+												<p>Condition: VG/VG-</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30337" onclick="cart.add('30337', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32037"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32037"><img src="https://rekords.net/image/cache/data/32037-228x228.jpg" alt="Azar Lawrence - Shadow Dancing, LP" title="Azar Lawrence - Shadow Dancing, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32037">Azar Lawrence - Shadow Dancing, LP</a></h4>
+                <p>Punchhole in sleeve. Price sticker on front.</p>
+		    								<p>Catalog#: RRL 85-101</p>
+												<p>Press: US</p>
+												<p>Year: 1985</p>
+												<p>Condition: NM/VG+</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32037" onclick="cart.add('32037', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33753"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33753"><img src="https://rekords.net/image/cache/data/33753-228x228.jpg" alt="Baby Cortez - The Isley Brothers Way, LP" title="Baby Cortez - The Isley Brothers Way, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33753">Baby Cortez - The Isley Brothers Way, LP</a></h4>
+                <p>Original US. Drillhole in sleeve.</p>
+		    								<p>Catalog#: TNS 3005</p>
+												<p>Press: US</p>
+												<p>Year: 1970</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33753" onclick="cart.add('33753', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32104"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32104"><img src="https://rekords.net/image/cache/data/32104-228x228.jpg" alt="Bar-Kays - Flying High On Your Love, LP" title="Bar-Kays - Flying High On Your Love, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32104">Bar-Kays - Flying High On Your Love, LP</a></h4>
+                <p>With printed inner sleeve.</p>
+		    								<p>Catalog#: SRM-1-1181</p>
+												<p>Press: US</p>
+												<p>Year: 1977</p>
+												<p>Condition: VG/VG</p>
+				                                <p class="price">                   DKK80.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32104" onclick="cart.add('32104', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31104"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31104"><img src="https://rekords.net/image/cache/data/31104-228x228.jpg" alt="Bill Summers &amp; Summers Heat - Cayenne, LP" title="Bill Summers &amp; Summers Heat - Cayenne, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31104">Bill Summers &amp; Summers Heat - Cayenne, LP</a></h4>
+                <p>Original US. With printed inner sleeve.</p>
+		    								<p>Catalog#: P-10103</p>
+												<p>Press: US</p>
+												<p>Year: 1977</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31104" onclick="cart.add('31104', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33660"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33660"><img src="https://rekords.net/image/cache/data/33660-228x228.jpg" alt="Black Heat - No Time To Burn, LP" title="Black Heat - No Time To Burn, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33660">Black Heat - No Time To Burn, LP</a></h4>
+                <p>Original US. Sleeve is taped in top. Strong VG LP</p>
+		    								<p>Catalog#: SD 7294</p>
+												<p>Press: US</p>
+												<p>Year: 1974</p>
+												<p>Condition: VG/VG</p>
+				                                <p class="price">                   DKK80.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33660" onclick="cart.add('33660', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30312"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30312"><img src="https://rekords.net/image/cache/data/30312-228x228.jpg" alt="Blue Mitchell - Graffiti Blues, LP, Reissue" title="Blue Mitchell - Graffiti Blues, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30312">Blue Mitchell - Graffiti Blues, LP, Reissue</a></h4>
+                <p>US Reissue.</p>
+		    								<p>Catalog#: MRL 400</p>
+												<p>Press: US</p>
+																<p>Condition: EX/EX</p>
+				                                <p class="price">                   DKK120.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30312" onclick="cart.add('30312', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33709"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33709"><img src="https://rekords.net/image/cache/data/33709-228x228.jpg" alt="Bob James - Three, LP" title="Bob James - Three, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33709">Bob James - Three, LP</a></h4>
+                <p>Netherlands first pressing</p>
+		    								<p>Catalog#: CTI 6063</p>
+												<p>Press: Netherlands</p>
+												<p>Year: 1976</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33709" onclick="cart.add('33709', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-27369"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27369"><img src="https://rekords.net/image/cache/data/27369-228x228.jpg" alt="Bobby Sherman - With Love, Bobby, LP" title="Bobby Sherman - With Love, Bobby, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27369">Bobby Sherman - With Love, Bobby, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: KMD 1032</p>
+												<p>Press: US</p>
+												<p>Year: 1970</p>
+												<p>Condition: VG+/VG+</p>
+				                                <p class="price">                   DKK35.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-27369" onclick="cart.add('27369', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33676"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33676"><img src="https://rekords.net/image/cache/data/33676-228x228.jpg" alt="Boris Midney - Music From The Empire Strikes Back, LP" title="Boris Midney - Music From The Empire Strikes Back, LP" class="img-responsive"></a><img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive"></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33676">Boris Midney - Music From The Empire Strikes Back, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: RS-1-3079</p>
+												<p>Press: US</p>
+												<p>Year: 1980</p>
+												<p>Condition: EX/VG</p>
+				                                <p class="price">                   DKK50.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33676" onclick="cart.add('33676', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Sold Out</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33772"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33772"><img src="https://rekords.net/image/cache/data/33772-228x228.jpg" alt="Brass Monkey - Brass Monkey, LP" title="Brass Monkey - Brass Monkey, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33772">Brass Monkey - Brass Monkey, LP</a></h4>
+                <p>Full seamsplit in top spine. Few hairlines on record.</p>
+		    								<p>Catalog#: RS523</p>
+												<p>Press: US</p>
+												<p>Year: 1971</p>
+												<p>Condition: VG+/G+</p>
+				                                <p class="price">                   DKK40.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33772" onclick="cart.add('33772', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33757"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33757"><img src="https://rekords.net/image/cache/data/33757-228x228.jpg" alt="Candi Staton - Young Hearts Run Free, LP" title="Candi Staton - Young Hearts Run Free, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33757">Candi Staton - Young Hearts Run Free, LP</a></h4>
+                <p>DJ stickers on labels.</p>
+		    								<p>Catalog#: BS 2948</p>
+												<p>Press: US</p>
+												<p>Year: 1976</p>
+												<p>Condition: VG/VG</p>
+				                                <p class="price">                   DKK40.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33757" onclick="cart.add('33757', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"><ul class="pagination"><li class="active"><span>1</span></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=2">2</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=3">3</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=4">4</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=5">5</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=6">6</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=7">7</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=8">8</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=9">9</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=2">&gt;</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_469&amp;page=11">&gt;|</a></li></ul></div>
+        <div class="col-sm-6 text-right">Showing 1 to 15 of 164 (11 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>

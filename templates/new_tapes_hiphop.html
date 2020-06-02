@@ -1,0 +1,539 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+
+<div id="product-category" class="container">
+	<ul class="breadcrumb">
+		<li>
+			<a href="https://rekords.net/">
+				<i class="fa fa-home"></i>
+			</a>
+		</li>
+		<li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=395">Tapes</a>
+		</li>
+		<li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=395_348">New Hip Hop Tapes</a>
+		</li>
+	</ul>
+	<div class="row">
+		<aside id="column-left" class="col-sm-3 hidden-xs">
+	  		<div class="list-group">
+	   			<a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item">Vinyl</a>
+		 
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item active">Tapes</a> 
+		  		<a href="https://rekords.net/index.php?route=product/category&amp;path=395_348" class="list-group-item active">&nbsp;&nbsp;&nbsp;- New Hip Hop Tapes</a> 
+		 
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=395_318" class="list-group-item">&nbsp;&nbsp;&nbsp;- Used Hip Hop Tapes</a>
+			   	<a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+		 		<a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+	  		</div>
+  
+	  		<div class="swiper-viewport">
+				<div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+	  				<div class="swiper-wrapper"></div>
+				</div>
+			  </div> 
+		</aside>
+  
+		<div id="content" class="col-sm-9">
+			<h2>New Hip Hop Tapes</h2>
+			<div class="row">
+				<div class="col-sm-10">
+					<p>&nbsp;&nbsp;<br></p>
+				</div>
+		  	</div><hr>
+			<div class="row">
+		  		<div class="col-md-2 col-sm-6 hidden-xs">
+					<div class="btn-group btn-group-sm">
+			  			<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List">
+							  <i class="fa fa-th-list"></i>
+						</button>
+			  			<button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid">
+							  <i class="fa fa-th"></i>
+						</button>
+					</div>
+		  		</div>
+		  		<div class="col-md-3 col-sm-6">
+		  	</div>
+		  	<div class="col-md-4 col-xs-6">
+				<div class="form-group input-group input-group-sm">
+			  		<label class="input-group-addon" for="input-sort">Sort By:</label>
+			  		<select id="input-sort" class="form-control" onchange="location = this.value;">
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+				
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+					
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+					
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+			
+			  		</select>
+				</div>
+		 	 </div>
+		  	<div class="col-md-3 col-xs-6">
+				<div class="form-group input-group input-group-sm">
+			  		<label class="input-group-addon" for="input-limit">Show:</label>
+			  		<select id="input-limit" class="form-control" onchange="location = this.value;">
+				
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;limit=15" selected="selected">15</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;limit=25">25</option>
+						
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;limit=50">50</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;limit=75">75</option>
+						
+						<option value="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;limit=100">100</option>
+				
+			 		</select>
+				</div>
+		  	</div>
+		</div>
+		<div class="row">  
+			<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="product-thumb">
+			  		<div class="image" id="image-23396">
+						<a href="https://rekords.net/index.php?route=product/product&amp;product_id=23396">
+							<img src="https://rekords.net/image/cache/data/23396-228x228.jpg" alt="6 Kolonne - Kasteløs, Bånd" title="6 Kolonne - Kasteløs, Bånd" class="img-responsive">
+						</a>
+					</div>
+			  		<div>
+						<div class="caption">
+				  			<h4>
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=23396">6 Kolonne - Kasteløs, Bånd</a>
+							</h4>
+				  			<p>Limited bånd. Udgivet i 100 eksemplarer.</p>
+							<p>Catalog#: AVIGNON003</p>
+							<p>Press: DK</p>
+							<p>Year: 2017</p>
+							<p>Condition: NEW</p>					 
+							<p class="price">                   DKK80.00 </p>
+						</div>
+						<div class="button-group">
+							<button type="button" id="button-cart-23396" onclick="cart.add('23396', '1');">
+								<i class="fa fa-shopping-cart"></i>
+								 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+							</button>
+						</div>
+			  		</div> 
+   				</div>
+		  	</div>
+			<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="product-thumb">
+			  		<div class="image" id="image-27245">
+						<a href="https://rekords.net/index.php?route=product/product&amp;product_id=27245">
+							<img src="https://rekords.net/image/cache/data/27245-228x228.jpg" alt="Asbestose - 2, Bånd" title="Asbestose - 2, Bånd" class="img-responsive">
+						</a>
+					</div>
+			  		<div>
+						<div class="caption">
+				  			<h4>
+								  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=27245">Asbestose - 2, Bånd</a>
+							</h4>
+				  			<p>Opfølgeren til debutalbummet, der gæstes af Johnny Books, Strudsigallop, Supardejen, Petta Bo, Maddi Tek, Rasmus Modsat, DJ FMD og Lars Da Fari. Trykt i 150 eksemplarer på gul/blåt kassettebånd.</p>
+							<p>Press: Denmark</p>
+							<p>Year: 2018</p>
+							<p>Condition: NEW</p>
+							<p class="price">                   DKK80.00 </p>
+						</div>
+						<div class="button-group">
+							<button type="button" id="button-cart-27245" onclick="cart.add('27245', '1');">
+								<i class="fa fa-shopping-cart"></i>
+								 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+							</button>
+						</div>
+			  		</div> 
+   				</div>
+		  	</div>
+			<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="product-thumb">
+			  		<div class="image" id="image-30822">
+						<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30822">
+							<img src="https://rekords.net/image/cache/data/30822-228x228.jpg" alt="Binær - Gods, Cassette" title="Binær - Gods, Cassette" class="img-responsive">
+						</a>
+					</div>
+					<div>
+					<div class="caption">
+						<h4>
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30822">Binær - Gods, Cassette</a>
+						</h4>
+						<p>”Gods” er andet album fra duoen Binær, bestående af Trepac og Mund de Carlo. I 2016 udgav Binær albummet "Umage", der gav et solidt indblik i, hvad det umage makkerpar havde at byde på som gruppe. Tre år og et par soloalbums senere udkommer opfølgeren omsider i form af albummet ’Gods’, hvis temaer kredser om det gods vi alle har med i hver vores mentale rygsæk. På det nye album har de to rappere fået selskab af produceren Xeren, der har et par fingre med i samtlige produktioner på pladen. Udover Xeren, har også Es, Carl Knast, Melancolia, Swab, IngrediJens, Ryder the Rebel og Klør 5 bidrager med produktioner til albummet. Derudover gæstes albummet af bobby shams, Funch, Wolff og DJ FMD.</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2019</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK90.00	 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-30822" onclick="cart.add('30822', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+				</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-28418">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=28418">
+						<img src="https://rekords.net/image/cache/data/28418-228x228.jpg" alt="C.C. Klassik - Trøjborg Sessions, Cassette" title="C.C. Klassik - Trøjborg Sessions, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=28418">C.C. Klassik - Trøjborg Sessions, Cassette</a>
+						</h4>
+				  		<p>En plade der udspringer fra et langt og sjovt samarbejde mellem to gode venner, på 3. etage i Tordenskjoldsgade. En plade med fortællinger, trommelyde, og melodier fra hele den århusianske verden. 28 mærkelige sange og beats der hver især afspejler, hvem fanden C.C. KLASSIK egentlig er. På limiteret kassettebånd.</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2019</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK70.00	</p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-28418" onclick="cart.add('28418', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-20990">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=20990">
+						<img src="https://rekords.net/image/cache/data/20990-228x228.jpg" alt="Count Bass D - Dwight Spitz, Cassette" title="Count Bass D - Dwight Spitz, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=20990">Count Bass D - Dwight Spitz, Cassette</a>
+						</h4>
+				  		<p></p>
+						<p>Catalog#: CBDTF-001</p>
+						<p>Press: US</p>
+						<p>Year: 2015</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK120.00</p>
+					</div>
+					<div class="button-group">
+					  	<button type="button" id="button-cart-20990" onclick="cart.add('20990', '1');">
+							<i class="fa fa-shopping-cart"></i> 
+							<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+  			 </div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-24733">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=24733">
+						<img src="https://rekords.net/image/cache/data/24733-228x228.jpg" alt="Czarface &amp; MF Doom - Czarface Meets Metal Face, Cassette" title="Czarface &amp; MF Doom - Czarface Meets Metal Face, Cassette" class="img-responsive">
+					</a>
+				</div>
+			 	<div>
+					<div class="caption">
+				 		<h4>
+							 <a href="https://rekords.net/index.php?route=product/product&amp;product_id=24733">Czarface &amp; MF Doom - Czarface Meets Metal Face, Cassette</a>
+						</h4>
+				  		<p>Rising from the wreckage of a war torn planet, Czarface joins forces with MF DOOM in the epic Czarface Meets Metal Face! Blending DOOM's trademark abstractions and CZARFACE's in-your-face lyrical attack, this album is ripe with cartoon violence, societal observations and pop culture musings. Over banging beats provided by The Czar-Keys, the armored team give you the witty unpredictable treats any hip-hop fan can sink their fangs into.</p>
+						<p>Catalog#: SIL 003-CA</p>
+						<p>Press: US</p>
+						<p>Year: 2018</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK120.00					 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-24733" onclick="cart.add('24733', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			 	 </div> 
+  		 	</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-30720">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30720">
+						<img src="https://rekords.net/image/cache/data/30720-228x228.jpg" alt="DJ Universe – Storbyhjerte, Cassette" title="DJ Universe – Storbyhjerte, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=30720">DJ Universe – Storbyhjerte, Cassette</a>
+						</h4>
+				  		<p>45 minutes of super fresh Danish 80's funk compiled and mixed by DJ Universe.</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2019</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK70.00							 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-30720" onclick="cart.add('30720', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-30378">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30378">
+						<img src="https://rekords.net/image/cache/data/30378-228x228.jpg" alt="Dust Masta Hiss – Unsolved Mysteries, Cassette" title="Dust Masta Hiss – Unsolved Mysteries, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=30378">Dust Masta Hiss – Unsolved Mysteries, Cassette</a>
+						</h4>
+				  		<p>New mixtape by Hust Masta Hiss. Mainly focused on Library Music and Soundstracks from around the worls. ”Sinister and thrilling themes accompained by vocal skits and cinematic beats and breaks, all wrapped in fine and intense atmosphere”</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2019</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK60.00							 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-30378" onclick="cart.add('30378', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-31198">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=31198">
+						<img src="https://rekords.net/image/cache/data/31198-228x228.jpeg" alt="Fabeldyret &amp; Antik - Tys Tys, Cassette" title="Fabeldyret &amp; Antik - Tys Tys, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				 		<h4>
+							 <a href="https://rekords.net/index.php?route=product/product&amp;product_id=31198">Fabeldyret &amp; Antik - Tys Tys, Cassette</a>
+						</h4>
+				  		<p>Nyt udspil fra Fabeldyret og Antik. Et uformeligt og absurd univers, både i tekst og lyd. Projektet indeholder ingen hele numre, men kun fragmenter der kolliderer og slanger sig ind mellem hinanden. Alting blev indspillet og sammensat en kold og ubarmhjertig februarnat. Gæstelisten tæller PsoriaKriz, Petta Bo, Loke Deph og oraklet Özgün Nergiz. Limited til 50 stk.&nbsp;</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2019</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK90.00							 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-31198" onclick="cart.add('31198', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-30128">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=30128">
+						<img src="https://rekords.net/image/cache/data/30128-228x228.jpg" alt="Fabeldyret &amp; Hex - De Hæslige Slynglers Klub, Cassette" title="Fabeldyret &amp; Hex - De Hæslige Slynglers Klub, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				 		<h4>
+							 <a href="https://rekords.net/index.php?route=product/product&amp;product_id=30128">Fabeldyret &amp; Hex - De Hæslige Slynglers Klub, Cassette</a>
+						</h4>
+				  		<p>Her gik man lige og troede, at mixtapets tid var forbi. Det viste sig at være en stor fed løgn. Fabeldyret og Hex har sammen lavet kassettebåndet “De Hæslige Slynglers Klub”, der byder på samplebeats og punchlinerap, og minder om en absurd børnefødselsdag. Det hele bliver serveret med et fjoget smil og en livsglæde, der fungerer som et herligt afbræk fra navlepilleriet og gråvejret. Find slangebøssen og båndoptageren frem - nu står den på fis, ballade og drengestreger.</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2019</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK90.00	 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-30128" onclick="cart.add('30128', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-20993">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=20993">
+						<img src="https://rekords.net/image/cache/data/20993-228x228.jpg" alt="Jaylib - Champion Sound, Cassette" title="Jaylib - Champion Sound, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=20993">Jaylib - Champion Sound, Cassette</a>
+						</h4>
+				  		<p></p>
+						<p>Catalog#: STH 2062</p>
+						<p>Press: US</p>
+						<p>Year: 2015</p>
+						<p>Condition: NEW</p>						  
+						<p class="price">                   DKK150.00							 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-20993" onclick="cart.add('20993', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-22119">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=22119">
+						<img src="https://rekords.net/image/cache/data/22119-228x228.jpg" alt="Johnny Books - Skjulte Budskaber, Cassette" title="Johnny Books - Skjulte Budskaber, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=22119">Johnny Books - Skjulte Budskaber, Cassette</a>
+						</h4>
+						<p>Direkte ud af Centeret. Ny Johnny Books kassette produceret af Fede Poul og Boone. Gæstes af Sean Lightfoot, PAL, Khal Allan &amp; Scratch Magic. </p>
+				 		<p>Catalog#: DRALBUM001</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2017</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK70.00 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-22119" onclick="cart.add('22119', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			 	 </div> 
+  	 		</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-20995">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=20995">
+						<img src="https://rekords.net/image/cache/data/20995-228x228.jpg" alt="MC Breed - The Fharmacist, Cassette" title="MC Breed - The Fharmacist, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=20995">MC Breed - The Fharmacist, Cassette</a>
+						</h4>
+				  		<p></p>
+						<p>Catalog#: 3479</p>
+						<p>Press: US</p>
+						<p>Year: 2001</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK60.00							 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-20995" onclick="cart.add('20995', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-24748">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=24748">
+						<img src="https://rekords.net/image/cache/data/24748-228x228.jpg" alt="Ntakt &amp; DJ Wernz - Fuck Hva' Du Har Ventet På, Cassette" title="Ntakt &amp; DJ Wernz - Fuck Hva' Du Har Ventet På, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=24748">Ntakt &amp; DJ Wernz - Fuck Hva' Du Har Ventet På, Cassette</a>
+						</h4>
+				  		<p>Ntakt og DJ Wernz debut album fra 2016 kommer nu på&nbsp;limited rødt bånd. Gæstes af Stik Op Jakob, SuparDejen og Malledrengen.</p>
+						<p>Press: Denmark</p>
+						<p>Year: 2018</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK80.00							 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-24748" onclick="cart.add('24748', '1');">
+							<i class="fa fa-shopping-cart"></i>
+							 <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+		<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<div class="product-thumb">
+				<div class="image" id="image-26731">
+					<a href="https://rekords.net/index.php?route=product/product&amp;product_id=26731">
+						<img src="https://rekords.net/image/cache/data/26731-228x228.jpg" alt="Qalupalik - Serendipity, Cassette" title="Qalupalik - Serendipity, Cassette" class="img-responsive">
+					</a>
+				</div>
+			  	<div>
+					<div class="caption">
+				  		<h4>
+							  <a href="https://rekords.net/index.php?route=product/product&amp;product_id=26731">Qalupalik - Serendipity, Cassette</a>
+						</h4>
+				  		<p>The debut album from the young and upcoming producer Qalupalik. Serendipity takes the listener through a series of tracks ranging from head nodding beats to space jazz and housed feel jams.</p>
+						<p>Press: DK</p>
+						<p>Year: 2018</p>
+						<p>Condition: NEW</p>
+						<p class="price">                   DKK60.00							 </p>
+					</div>
+					<div class="button-group">
+						<button type="button" id="button-cart-26731" onclick="cart.add('26731', '1');">
+							<i class="fa fa-shopping-cart"></i> 
+							<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+						</button>
+					</div>
+			  	</div> 
+   			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 text-left">
+			<ul class="pagination">
+				<li class="active">
+				<span>1</span>
+				</li>
+				<li>
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;page=2">2</a>
+				</li>
+				<li>
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;page=2">&gt;</a>
+				</li>
+				<li>
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=395_348&amp;page=2">&gt;|</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-sm-6 text-right">Showing 1 to 15 of 20 (2 Pages)</div>
+	</div>
+					</div>
+	  </div>
+  </div>

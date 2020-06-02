@@ -1,0 +1,421 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+<div id="product-category" class="container">
+	<ul class="breadcrumb">
+		<li>
+			<a href="https://rekords.net/">
+				<i class="fa fa-home"></i>
+			</a>
+		</li>
+        <li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a>
+		</li>
+        <li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323">Used Vinyl</a>
+		</li>
+        <li>
+			<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70">Dansk Hip Hop (Albums)</a>
+		</li>
+	</ul>
+	<div class="row">
+		<aside id="column-left" class="col-sm-3 hidden-xs">
+			<div class="list-group">
+     
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+       
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item">&nbsp;&nbsp;&nbsp;- New Vinyl</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item active">&nbsp;&nbsp;&nbsp;- Used Vinyl</a> 
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+			</div>
+
+			<div class="swiper-viewport">
+				<div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+					<div class="swiper-wrapper"></div>
+				</div>
+			</div> 
+		</aside>
+
+		<div id="content" class="col-sm-9">
+			<h2>Dansk Hip Hop (Albums)</h2>
+			<div class="row">
+				<div class="col-md-2 col-sm-6 hidden-xs">
+					<div class="btn-group btn-group-sm">
+						<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List">
+							<i class="fa fa-th-list"></i>
+						</button>
+						<button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid">
+							<i class="fa fa-th"></i>
+						</button>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6"></div>
+				<div class="col-md-4 col-xs-6">
+					<div class="form-group input-group input-group-sm">
+						<label class="input-group-addon" for="input-sort">Sort By:</label>
+						<select id="input-sort" class="form-control" onchange="location = this.value;">
+      
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+				
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+					   
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+					   
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+				  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+				  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+					 
+							  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+						  
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+							 
+							<option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+						  
+            
+						</select>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="form-group input-group input-group-sm">
+						<label class="input-group-addon" for="input-limit">Show:</label>
+							<select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-26147"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=26147"><img src="https://rekords.net/image/cache/data/26147-228x228.jpg" alt="2bak i Munden - 29 Minutters Funk, LP" title="2bak i Munden - 29 Minutters Funk, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=26147">2bak i Munden - 29 Minutters Funk, LP</a></h4>
+                <p>Med ”2 Svin Der Gør Dig Til Grin Magasin” promo magasin.</p>
+		    								<p>Catalog#: DDS-01</p>
+												<p>Press: Denmark</p>
+												<p>Year: 1999</p>
+												<p>Condition: Used: NM/VG+</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-26147" onclick="cart.add('26147', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-23120"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=23120"><img src="https://rekords.net/image/cache/data/23120-228x228.jpg" alt="Acorn - Limitless Prospects, LP" title="Acorn - Limitless Prospects, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=23120">Acorn - Limitless Prospects, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: DTM01</p>
+												<p>Press: Denmark</p>
+												<p>Year: 1999</p>
+												<p>Condition: Used: VG+/VG+</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-23120" onclick="cart.add('23120', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30247"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30247"><img src="https://rekords.net/image/cache/data/30247-228x228.jpg" alt="Apollo DJ's, DJ Talkback - ButterFly Breaks, LP" title="Apollo DJ's, DJ Talkback - ButterFly Breaks, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30247">Apollo DJ's, DJ Talkback - ButterFly Breaks, LP</a></h4>
+                <p>Uafspillet. Trykt i 100 eksemplar. Battleplade produceret af DJ Nelson, DJ Talkback og DJ Guller.</p>
+		    								<p>Catalog#: none</p>
+												<p>Press: Denmark</p>
+												<p>Year: 1997</p>
+												<p>Condition: M/Generic</p>
+				                                <p class="price">                   DKK500.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30247" onclick="cart.add('30247', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32503"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32503"><img src="https://rekords.net/image/cache/data/32503-228x228.jpg" alt="Ashtiani &amp; Baltzer - Beats &amp; Basslines, 2xLP" title="Ashtiani &amp; Baltzer - Beats &amp; Basslines, 2xLP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32503">Ashtiani &amp; Baltzer - Beats &amp; Basslines, 2xLP</a></h4>
+                <p>With sticker and bonus DVD.</p>
+		    								<p>Catalog#: SBRLP03</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2006</p>
+												<p>Condition: EX/VG+</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32503" onclick="cart.add('32503', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33570"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33570"><img src="https://rekords.net/image/cache/data/33570-228x228.jpg" alt="Beat Around The Bush - Kun 1 Smule Pr. Vers, LP, Reissue" title="Beat Around The Bush - Kun 1 Smule Pr. Vers, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33570">Beat Around The Bush - Kun 1 Smule Pr. Vers, LP, Reissue</a></h4>
+                <p>Første vinyl version.</p>
+		    								<p>Catalog#: UK 005B LP</p>
+												<p>Press: Denmark</p>
+												<p>Year: 1995</p>
+												<p>Condition: NM/VG</p>
+				                                <p class="price">                   DKK500.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33570" onclick="cart.add('33570', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31369"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31369"><img src="https://rekords.net/image/cache/data/31369-228x228.jpg" alt="Benal - Hvis Det Virkelig Er Vigtigt, 2xLP" title="Benal - Hvis Det Virkelig Er Vigtigt, 2xLP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31369">Benal - Hvis Det Virkelig Er Vigtigt, 2xLP</a></h4>
+                <p>Første tryk. Sealed..</p>
+		    								<p>Catalog#: 88985 49262 1</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2018</p>
+												<p>Condition: M/M</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31369" onclick="cart.add('31369', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33469"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33469"><img src="https://rekords.net/image/cache/data/33469-228x228.jpg" alt="Binær - Umage, LP" title="Binær - Umage, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33469">Binær - Umage, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: ECHO019</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2016</p>
+												<p>Condition: NM/VG</p>
+				                                <p class="price">                   DKK350.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33469" onclick="cart.add('33469', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33467"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33467"><img src="https://rekords.net/image/cache/data/33467-228x228.jpg" alt="Binær - Umage, LP" title="Binær - Umage, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33467">Binær - Umage, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: ECHO019</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2016</p>
+												<p>Condition: NM/EX</p>
+				                                <p class="price">                   DKK400.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33467" onclick="cart.add('33467', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33468"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33468"><img src="https://rekords.net/image/cache/data/33468-228x228.jpg" alt="Binær - Umage, LP" title="Binær - Umage, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33468">Binær - Umage, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: ECHO019</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2016</p>
+												<p>Condition: NM/EX</p>
+				                                <p class="price">                   DKK400.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33468" onclick="cart.add('33468', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-21693"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=21693"><img src="https://rekords.net/image/cache/data/21693-228x228.jpg" alt="Blodsport - Pandæmonium, LP" title="Blodsport - Pandæmonium, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=21693">Blodsport - Pandæmonium, LP</a></h4>
+                <p>Sleeve still in shrinkwrap.</p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 2017</p>
+												<p>Condition: Used: NM/NM</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-21693" onclick="cart.add('21693', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33477"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33477"><img src="https://rekords.net/image/cache/data/33477-228x228.jpg" alt="Bogfinkevej - Helt Stil, LP, Mini-Album" title="Bogfinkevej - Helt Stil, LP, Mini-Album" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33477">Bogfinkevej - Helt Stil, LP, Mini-Album</a></h4>
+                <p>Still in shrinkwrap.</p>
+		    								<p>Catalog#: UNI 57 42382</p>
+												<p>Press: Denmark</p>
+																<p>Condition: NM/NM</p>
+				                                <p class="price">                   DKK350.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33477" onclick="cart.add('33477', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32384"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32384"><img src="https://rekords.net/image/cache/data/32384-228x228.jpg" alt="Boogie Pukki &amp; Migidi Mansa - Undergrunds Arbejde, LP" title="Boogie Pukki &amp; Migidi Mansa - Undergrunds Arbejde, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32384">Boogie Pukki &amp; Migidi Mansa - Undergrunds Arbejde, LP</a></h4>
+                <p></p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 2017</p>
+												<p>Condition: NM/NM</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32384" onclick="cart.add('32384', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-28189"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28189"><img src="https://rekords.net/image/cache/data/28189-228x228.jpg" alt="Boom Clap Bachelors - Boom Clap Bachelors!, LP" title="Boom Clap Bachelors - Boom Clap Bachelors!, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28189">Boom Clap Bachelors - Boom Clap Bachelors!, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: BCBLP 001</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2005</p>
+												<p>Condition: VG+/VG</p>
+				                                <p class="price">                   DKK120.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-28189" onclick="cart.add('28189', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32366"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32366"><img src="https://rekords.net/image/cache/data/32366-228x228.jpg" alt="Boone &amp; Trepac - De Forkerte Spor, LP" title="Boone &amp; Trepac - De Forkerte Spor, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32366">Boone &amp; Trepac - De Forkerte Spor, LP</a></h4>
+                <p>Nummereret: 199/250</p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 2015</p>
+												<p>Condition: NM/VG+</p>
+				                                <p class="price">                   DKK300.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32366" onclick="cart.add('32366', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-29508"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=29508"><img src="https://rekords.net/image/cache/data/29508-228x228.jpg" alt="Bumsestilen - Ude Af Trit Med Flokken Del 1, LP" title="Bumsestilen - Ude Af Trit Med Flokken Del 1, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=29508">Bumsestilen - Ude Af Trit Med Flokken Del 1, LP</a></h4>
+                <p></p>
+		    								<p>Catalog#: ISR006</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2010</p>
+												<p>Condition: NM/VG+</p>
+				                                <p class="price">                   DKK60.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-29508" onclick="cart.add('29508', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"><ul class="pagination"><li class="active"><span>1</span></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=2">2</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=3">3</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=4">4</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=5">5</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=6">6</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=7">7</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=8">8</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=9">9</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=2">&gt;</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_323_70&amp;page=11">&gt;|</a></li></ul></div>
+        <div class="col-sm-6 text-right">Showing 1 to 15 of 156 (11 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>
