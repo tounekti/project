@@ -1,0 +1,459 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+<div id="product-category" class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://rekords.net/"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325">New Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329">Beats</a></li>
+      </ul>
+  <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="list-group">
+     
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+        <a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item active">&nbsp;&nbsp;&nbsp;- New Vinyl</a> 
+       
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item">&nbsp;&nbsp;&nbsp;- Used Vinyl</a>
+             <a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+    </div>
+
+    <div class="swiper-viewport">
+  <div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+    <div class="swiper-wrapper"></div>
+  </div>
+</div> </aside>
+
+                <div id="content" class="col-sm-9">
+      <h2>Beats</h2>
+                        <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-sort">Sort By:</label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-24412"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=24412"><img src="https://rekords.net/image/cache/data/24412-228x228.jpg" alt="2Late - Waves, LP" title="2Late - Waves, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=24412">2Late - Waves, LP</a></h4>
+                <p>Debut solo album by very talented young producer from London 2LATE.</p>
+		    								<p>Catalog#: HHV619</p>
+												<p>Press: Europe</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK130.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-24412" onclick="cart.add('24412', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-27615"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27615"><img src="https://rekords.net/image/cache/data/27615-228x228.jpg" alt="Abdullah S - Handmade Heavyweight Boogie 4 Babies, LP" title="Abdullah S - Handmade Heavyweight Boogie 4 Babies, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27615">Abdullah S - Handmade Heavyweight Boogie 4 Babies, LP</a></h4>
+                <p>New album from the Danish Funk &amp; Soul king Abdullah S (Booty Cologne)! Dont sleep!</p>
+		    								<p>Catalog#: W.I.LLP001</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2018</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-27615" onclick="cart.add('27615', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-27248"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27248"><img src="https://rekords.net/image/cache/data/27248-228x228.jpg" alt="Abstract Orchestra - Madvillain Vol. 1, LP" title="Abstract Orchestra - Madvillain Vol. 1, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27248">Abstract Orchestra - Madvillain Vol. 1, LP</a></h4>
+                <p>UK based hip hop big band Abstract Orchestra takes on the work of Madvillain (Doom and Madlib). </p>
+		    								<p>Catalog#: ATA012</p>
+												<p>Press: UK</p>
+												<p>Year: 2018</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK220.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-27248" onclick="cart.add('27248', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30484"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30484"><img src="https://rekords.net/image/cache/data/30484-228x228.jpg" alt="Alchemist - Fetti Instrumentals, LP" title="Alchemist - Fetti Instrumentals, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30484">Alchemist - Fetti Instrumentals, LP</a></h4>
+                <p>The limited edition instrumentals to the collaborative album from Curren$y and Freddie Gibbs produced entirely by The Alchemist. Only available on vinyl.</p>
+		    								<p>Catalog#: ALC5015</p>
+												<p>Press: US</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK280.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30484" onclick="cart.add('30484', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-29285"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=29285"><img src="https://rekords.net/image/cache/data/29285-228x228.jpg" alt="Analogik - Havnens Perle, LP" title="Analogik - Havnens Perle, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=29285">Analogik - Havnens Perle, LP</a></h4>
+                <p>Efter mange år uden lyd, og en større børneproduktion, er der nu atter røre i andendammen hos Analogik. Havnens perle er en nyfortolkning af visen på en analogisk måde med inspiration fra hele verden. Gamle udslidte og kasserede instrumenter får nyt liv på en mere stille og eftertænksom Analogik plade.
+</p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-29285" onclick="cart.add('29285', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-27273"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27273"><img src="https://rekords.net/image/cache/data/27273-228x228.jpg" alt="Anstalt - Synmph, LP" title="Anstalt - Synmph, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27273">Anstalt - Synmph, LP</a></h4>
+                <p>Dark ambient / abtract electronic LP by Antiks old group ”Anstalt” (Antik &amp; Mnotro). Was used by Den Sorte Skole on Lektion 2.</p>
+		    								<p>Catalog#: RLLP001</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2004</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK80.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-27273" onclick="cart.add('27273', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32779"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32779"><img src="https://rekords.net/image/cache/data/32779-228x228.jpg" alt="Athletic Progression - Athletic Progression, LP" title="Athletic Progression - Athletic Progression, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32779">Athletic Progression - Athletic Progression, LP</a></h4>
+                <p>After the 2019 release of their debut album "Dark Smoke", the Danish trio Athletic Progression has gone from strength to strength in Denmark. Multiple sold out shows in DK and abroad, as well two Danish Jazz Award nominations - and even one for Danish musician of the year! - later, the group is now ready to release their next album, an instrumental opus years in the making. Highly recommended for fans of Thundercat, J Dilla, Comet is Coming and the like.
+</p>
+		    								<p>Catalog#: HHV813</p>
+												<p>Press: Europe</p>
+												<p>Year: 2020</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK175.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32779" onclick="cart.add('32779', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-20300"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=20300"><img src="https://rekords.net/image/cache/data/20300-228x228.jpg" alt="Berlin Zoo - Super Bad Disco, LP" title="Berlin Zoo - Super Bad Disco, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=20300">Berlin Zoo - Super Bad Disco, LP</a></h4>
+                <p>Dope instrumental debut LP by Berlin Zoo (the 3 Danish beatheads Shatter Hands, Fou Fou and I Kicked A Cloud Once). A personal favorite of 2017 so far!</p>
+		    								<p>Catalog#: HHV597</p>
+												<p>Press: Germany</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK160.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-20300" onclick="cart.add('20300', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-25964"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=25964"><img src="https://rekords.net/image/cache/data/25964-228x228.jpg" alt="Blockhead - The Art Of Sample, LP" title="Blockhead - The Art Of Sample, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=25964">Blockhead - The Art Of Sample, LP</a></h4>
+                <p>The Art of the Sample is a unique project for New York hip-hop producer Blockhead. He was given access to sample De Wolfe’s music library and create his own library record. In his own words “These are not typical Blockhead songs. They’re more stripped down and focused for the purpose of being used in TV and film.” </p>
+		    								<p>Catalog#: Bite 001 | YL1809</p>
+												<p>Press: US</p>
+												<p>Year: 2018</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK190.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-25964" onclick="cart.add('25964', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30821"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30821"><img src="https://rekords.net/image/cache/data/30821-228x228.jpg" alt="Chllngr - Form Of Release, LP" title="Chllngr - Form Of Release, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30821">Chllngr - Form Of Release, LP</a></h4>
+                <p>Second album by producer CHLLNGR. Featuring the singer Serpentwithfeet who later went on to work with big names like Björk and Ty Dolla Sign.</p>
+		    								<p>Catalog#: TNP015LP</p>
+																<p>Year: 2014</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30821" onclick="cart.add('30821', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-28836"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28836"><img src="https://rekords.net/image/cache/data/28836-228x228.jpg" alt="Cohen Beats - Daily Affirmations, LP" title="Cohen Beats - Daily Affirmations, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28836">Cohen Beats - Daily Affirmations, LP</a></h4>
+                <p>Beat tape album, the debut Stones Throw release for Tel Aviv producer Michael Cohen. Featuring danish singer Nanna.B.</p>
+		    								<p>Catalog#: STH2374</p>
+												<p>Press: US</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-28836" onclick="cart.add('28836', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30718"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30718"><img src="https://rekords.net/image/cache/data/30718-228x228.jpg" alt="Context - Songs Of Absence, LP" title="Context - Songs Of Absence, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30718">Context - Songs Of Absence, LP</a></h4>
+                <p>The long awaited soloalbum by the Danish producerlegend Context is finally out! As one of the strongest forces in projects like Nobody Beats The Beats and Boulevard Connection he delivered instrumental classics and produced beats for rappers like Guru (Gang Starr), Common, Masta Ace, Little Brother, Iriscience (Dilated Peoples), Last Emperor, Grand Puba and more. ”Songs Of Absence” is the title of his new record which is released on wax by Rekords Records. ”Songs Of Absence” features no less than 37 beats, all produced and mixed by Context. Limited to 200 copies.
+</p>
+		    								<p>Catalog#: REKREC014</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK170.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30718" onclick="cart.add('30718', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-28838"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28838"><img src="https://rekords.net/image/cache/data/28838-228x228.jpg" alt="Dãm-Funk - Toeachizown: Latrik, LP, Reissue" title="Dãm-Funk - Toeachizown: Latrik, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28838">Dãm-Funk - Toeachizown: Latrik, LP, Reissue</a></h4>
+                <p>From D-F: “LAtrik is more of my ‘electric style’ (hence the title of this volume) which is influenced by, yet never bitin' such great artist as Juan Atkins (Cybotron) &amp; Prince to name just a few. It also highlights the more modern sounds of L.A. based Funk right now with instrumentals like ‘Toeachizown’ &amp; vocal tracks like ‘Mirrors’ which, I feel are distinctly my sound, humbly speaking. I hope U dig it, as this was made 4 U! - D-F”</p>
+		    								<p>Catalog#: STH2225</p>
+												<p>Press: US</p>
+												<p>Year: 2012</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-28838" onclick="cart.add('28838', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-20909"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=20909"><img src="https://rekords.net/image/cache/data/20909-228x228.jpg" alt="Damu The Fudgemunk - HISS Abyss: Unreleased Bonus Tracks From The HISS Volumes 3, 4 &amp; 5 Sessions, 10”" title="Damu The Fudgemunk - HISS Abyss: Unreleased Bonus Tracks From The HISS Volumes 3, 4 &amp; 5 Sessions, 10”" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=20909">Damu The Fudgemunk - HISS Abyss: Unreleased Bonus Tracks From The HISS Volumes 3, 4 &amp; 5 Sessions, 10”</a></h4>
+                <p>Leftovers from Damus How It Should Sound beats series. Pressed on blue 10 inch vinyl.</p>
+		    								<p>Catalog#: RDF080</p>
+												<p>Press: US</p>
+												<p>Year: 2015</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK120.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-20909" onclick="cart.add('20909', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-24419"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=24419"><img src="https://rekords.net/image/cache/data/24419-228x228.jpg" alt="Damu The Fudgemunk - How It Should Sound 3, LP" title="Damu The Fudgemunk - How It Should Sound 3, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=24419">Damu The Fudgemunk - How It Should Sound 3, LP</a></h4>
+                <p>Volume 3 in Damu The Fudgemunk ”HISS” instrumental serie.</p>
+		    								<p>Catalog#: RDF075</p>
+												<p>Press: US</p>
+												<p>Year: 2015</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-24419" onclick="cart.add('24419', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"><ul class="pagination"><li class="active"><span>1</span></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=2">2</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=3">3</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=4">4</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=5">5</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=6">6</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=7">7</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=8">8</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=2">&gt;</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_329&amp;page=8">&gt;|</a></li></ul></div>
+        <div class="col-sm-6 text-right">Showing 1 to 15 of 115 (8 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>

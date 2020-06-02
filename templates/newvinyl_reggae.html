@@ -1,0 +1,467 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+<div id="product-category" class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://rekords.net/"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325">New Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_466">Reggae</a></li>
+      </ul>
+  <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="list-group">
+     
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+        <a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item active">&nbsp;&nbsp;&nbsp;- New Vinyl</a> 
+       
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item">&nbsp;&nbsp;&nbsp;- Used Vinyl</a>
+             <a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+    </div>
+
+    <div class="swiper-viewport">
+  <div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+    <div class="swiper-wrapper"></div>
+  </div>
+</div> </aside>
+
+                <div id="content" class="col-sm-9">
+      <h2>Reggae</h2>
+            <div class="row">                 <div class="col-sm-10"><p><br></p></div>
+        </div>
+      <hr>
+                        <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-sort">Sort By:</label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30819"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30819"><img src="https://rekords.net/image/cache/data/30819-228x228.jpg" alt="2000F - Mennesker I, 12&quot;, EP" title="2000F - Mennesker I, 12&quot;, EP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30819">2000F - Mennesker I, 12", EP</a></h4>
+                <p>Flintøkse-hård fremtids-dub med ekkoer fra den før-kristne nordiske oldtid. Kompromisløs progressiv steppas dub i den såkaldte 'år 3000 stil' som nogle måske kender fra Iration Steppas og O.B.F. Peak-hour business!</p>
+		    								<p>Catalog#: RASP010</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30819" onclick="cart.add('30819', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31150"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31150"><img src="https://rekords.net/image/cache/data/31150-228x228.jpg" alt="Alborosie - Dub The System, LP" title="Alborosie - Dub The System, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31150">Alborosie - Dub The System, LP</a></h4>
+                <p>The dub version to Alborosie's longplayer 'Sound The System'. (gentle warning - this is a vinyl only release!)
+</p>
+		    								<p>Catalog#: VPGSRL7013</p>
+												<p>Press: UK</p>
+												<p>Year: 2013</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK120.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31150" onclick="cart.add('31150', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31151"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31151"><img src="https://rekords.net/image/cache/data/31151-228x228.jpg" alt="Alborosie Meets The Roots Radics - Dub For The Radicals, LP" title="Alborosie Meets The Roots Radics - Dub For The Radicals, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31151">Alborosie Meets The Roots Radics - Dub For The Radicals, LP</a></h4>
+                <p>"Dub For The Radicals" are ten unearthed rock solid Roots Radics rhythm tracks dub charged by Alborosie and Flabba Holt at Shengen Studio, Jamaica. This is speaker shaking drum and bass from the original Roots Radics - pure dub fire - Alborosie meets The Roots Radics at their best in a heavyweight dub showdown! - It is Alborosie's fifth dub project following the strictly dubwise albums "Dub Clash" (2010), "Dub The System" (2013), "Dub Of Thrones" w/King Jammy (2015) and "Freedom In Dub" (2017).</p>
+		    								<p>Catalog#: VPGSRL7060</p>
+												<p>Press: UK</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31151" onclick="cart.add('31151', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-28834"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28834"><img src="https://rekords.net/image/cache/data/28834-228x228.jpg" alt="Bikstok - Uranium, 12”, EP, Reissue" title="Bikstok - Uranium, 12”, EP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28834">Bikstok - Uranium, 12”, EP, Reissue</a></h4>
+                <p>Genoptryk af Bikstoks EP fra 2015. Med hittet 80eren.
+</p>
+		    								<p>Catalog#: MR0073</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-28834" onclick="cart.add('28834', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-27623"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27623"><img src="https://rekords.net/image/cache/data/27623-228x228.jpg" alt="Bikstok Røgsystem - Over Stok Og Sten, 2xLP, Reissue" title="Bikstok Røgsystem - Over Stok Og Sten, 2xLP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27623">Bikstok Røgsystem - Over Stok Og Sten, 2xLP, Reissue</a></h4>
+                <p>Nyt (2019) genoptryk på blå vinyl!
+</p>
+		    								<p>Catalog#: 190759108512</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK220.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-27623" onclick="cart.add('27623', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-22176"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=22176"><img src="https://rekords.net/image/cache/data/22176-228x228.jpg" alt="Chancho - Showcase, LP" title="Chancho - Showcase, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=22176">Chancho - Showcase, LP</a></h4>
+                <p>Dansk dancehall plade. Produceret af Firehouse &amp; Klumben. Gæstes af Mighty Mala &amp; Klumben. Whitelabel edition!</p>
+		    								<p>Catalog#: SUB 002</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK100.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-22176" onclick="cart.add('22176', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31155"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31155"><img src="https://rekords.net/image/cache/data/31155-228x228.jpg" alt="Cornell Campbell - I Man A The Stal-A-Watt, LP" title="Cornell Campbell - I Man A The Stal-A-Watt, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31155">Cornell Campbell - I Man A The Stal-A-Watt, LP</a></h4>
+                <p>"I Man A The Stal-A-Watt" gathers together 13 sure shots from Cornell Campbell blending the very best of his all-conquering hit run of forty-fives for Bunny "Striker" Lee alongside a stretch of crucial cuts produced by Joe Gibbs - from the 1970s - 80s classic era. The title is a boast from the early soundclash era when many of Campbell's tracks, here produced primarily by Bunny Lee, would play first on King Tubby’s Home Town Hi-Fi in Jamaica. The songs run the range from clash-ready standards like "Mash You Down" and "The Gorgon" to cultural commentaries like "Jah Jah Me Horn Yah" and "Bandulu" to the lover’s masterpiece "The Investigator" which leads off the set. Stretching into the early 80s, the collection includes two originals that would spawn countless re-interpretations, "Rope In" and "Boxing Around".</p>
+		    								<p>Catalog#: VPRL4221</p>
+												<p>Press: US</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31155" onclick="cart.add('31155', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30805"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30805"><img src="https://rekords.net/image/cache/data/30805-228x228.jpg" alt="Endurance - Seed Of Redemption, LP" title="Endurance - Seed Of Redemption, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30805">Endurance - Seed Of Redemption, LP</a></h4>
+                <p>Seed of Redemption is the debut album from Endurance. The album is an culmination of years of recording in both the artists own studio Highly I and together with Morten McCoy in his studio. The productions feature live musicians playing together in one take and takes inspiration in the heavy Jamaican roots production from the late 1970’s and early 1980’s. The intro “Seed of Redemption” and the last tune “Honour Jah” are both in the ancient style of Nyahbinghi which also underlines the strong cultural and spiritual message on this record. Lyrically Endurance is focusing on his faith in Rastafari. Through loving JAH the creator and living a upful life on a daily basis mankind will be able to overcome the problems we are facing today.</p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30805" onclick="cart.add('30805', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31471"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31471"><img src="https://rekords.net/image/cache/data/31471-228x228.jpg" alt="Fat Freddy's Drop - Special Edition Part 1, 2xLP" title="Fat Freddy's Drop - Special Edition Part 1, 2xLP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31471">Fat Freddy's Drop - Special Edition Part 1, 2xLP</a></h4>
+                <p>New Zealand juggernaut Fat Freddy’s Drop return with a new studio album, ‘Special Edition Part 1’ and an extensive tour in 2020. Black vinyl edition.
+</p>
+		    								<p>Catalog#: DRP028</p>
+												<p>Press: New Zealand</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK220.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31471" onclick="cart.add('31471', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31157"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31157"><img src="https://rekords.net/image/cache/data/31157-228x228.jpg" alt="Gregory Isaacs - Mr. Isaacs , LP" title="Gregory Isaacs - Mr. Isaacs , LP" class="img-responsive"></a><img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive"></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31157">Gregory Isaacs - Mr. Isaacs , LP</a></h4>
+                <p>Among the most important full-length album works from one of reggae’s greatest singers, "Mr. Isaacs" shows the great Gregory Isaacs in the prime of his career in 1976/1977. Better known for his love songs, Isaacs was equally adept at cultural themes. The tracks "Set The Captives Free" and "Slave Master" are among the most popular in his catalogue, the latter immortalized on film in the movie 'Rockers'. The track "Storm" became an early favourite in the dancehall, its rhythm track (aka the Storm riddim) is re-imagined no fewer than 75 times over the last 40 years. Gregory Isaacs love of Rocksteady shines in his cover of the Silvertones’ "Smile", and his soulful side comes through on a cover of The Temptations’ "Get Ready". The breadth of material on "Mr. Isaacs" is the hallmark of a reggae classic!
+</p>
+		    								<p>Catalog#: VP4201</p>
+												<p>Press: US</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31157" onclick="cart.add('31157', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Sold Out</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31163"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31163"><img src="https://rekords.net/image/cache/data/31163-228x228.jpg" alt="Horace Andy - In The Light Dub, LP, Reissue" title="Horace Andy - In The Light Dub, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31163">Horace Andy - In The Light Dub, LP, Reissue</a></h4>
+                <p>1977 dub classic with Prince Jammy at the controls. Long awaited re-issue in the iconic original sleeve of the crucial dub companion to Horace Andy's classic "In The Light" that was given confirmed dub album classic status by its 1995 Blood &amp; Fire edition. Horace Andy's profile already legendary in reggae circles, has been internationally raised by his work with Massive Attack and his continued live presence.</p>
+		    								<p>Catalog#: VPRL2576</p>
+												<p>Press: US</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK130.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31163" onclick="cart.add('31163', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31164"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31164"><img src="https://rekords.net/image/cache/data/31164-228x228.jpg" alt="Joe Gibbs &amp; The Professionals - African Dub (Chapter Two), LP, Reissue" title="Joe Gibbs &amp; The Professionals - African Dub (Chapter Two), LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31164">Joe Gibbs &amp; The Professionals - African Dub (Chapter Two), LP, Reissue</a></h4>
+                <p>Back in stock is the Kevin Metcalfe re-mastered dub classic from 1977 in the original picture sleeve! - "African Dub Chapter Two" has 12 tracks of excellent dub versions on riddims from the Treasure Isle and Studio One Rocksteady-era, on "Hypocrites" (Bob Marley &amp; The Wailers) and on "Uptown Top Ranking" (Althea &amp; Donna) with featured musicians Carlton "Santa" Davis, Leroy "Horsemouth" Wallace, George "Fully" Fulwood, Tony Chin, Richard "Dirty Harry" Hall, Tommy McCook, Bobby Ellis, plus Errol Thompson aka Errol T at the mixing desk.
+</p>
+		    								<p>Catalog#: VPRL4108</p>
+												<p>Press: US</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31164" onclick="cart.add('31164', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31159"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31159"><img src="https://rekords.net/image/cache/data/31159-228x228.jpg" alt="Junjo - Heavyweight Dub Champion, 2xLP, Reissue, Remastered" title="Junjo - Heavyweight Dub Champion, 2xLP, Reissue, Remastered" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31159">Junjo - Heavyweight Dub Champion, 2xLP, Reissue, Remastered</a></h4>
+                <p>The official re-issue of the dub classic "Heavyweight Dub Champion" available as extended 2LP vinyl-set with 20 tracks and poster. The original album from 1980 has been state-of-the-art remastered and is twinned with a second disc of the original vocal versions. All music recorded at Channel One with the Roots Radics and mixed by Scientist at King Tubby's studio with producer Henry "Junjo" Lawes.
+</p>
+		    								<p>Catalog#: GREL 2104</p>
+												<p>Press: UK</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31159" onclick="cart.add('31159', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31160"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31160"><img src="https://rekords.net/image/cache/data/31160-228x228.jpg" alt="Junjo - The Evil Curse Of The Vampires, 2xLP, Reissue, Remastered" title="Junjo - The Evil Curse Of The Vampires, 2xLP, Reissue, Remastered" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31160">Junjo - The Evil Curse Of The Vampires, 2xLP, Reissue, Remastered</a></h4>
+                <p>The official re-issue of the dub classic "The Evil Curse Of The Vampires" available as extended 2LP vinyl-set with 20 tracks and poster. The original album from 1981 has been state-of-the-art remastered and is twinned with a second disc of the original vocal versions. All music recorded at Channel One with the Roots Radics and mixed by Scientist at King Tubby's studio with producer Henry "Junjo" Lawes.</p>
+		    								<p>Catalog#: GREL 2106</p>
+												<p>Press: Europe</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31160" onclick="cart.add('31160', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31161"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31161"><img src="https://rekords.net/image/cache/data/31161-228x228.jpg" alt="Junjo - Wins The World Cup (The Final King Tubby's Session), 2xLP, Reissue, Remastered" title="Junjo - Wins The World Cup (The Final King Tubby's Session), 2xLP, Reissue, Remastered" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31161">Junjo - Wins The World Cup (The Final King Tubby's Session), 2xLP, Reissue, Remastered</a></h4>
+                <p>The official re-issue of the dub classic "Wins The World Cup" available as extended 2LP vinyl-set with 20 tracks and poster. The original album from 1982 has been state-of-the-art remastered and is twinned with a second disc of the original vocal versions. All music recorded at Channel One with the Roots Radics and mixed by Scientist at King Tubby's with producer Henry "Junjo" Lawes.</p>
+		    								<p>Catalog#: GREL2107</p>
+												<p>Press: Europe</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31161" onclick="cart.add('31161', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"><ul class="pagination"><li class="active"><span>1</span></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;page=2">2</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;page=3">3</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;page=2">&gt;</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_466&amp;page=3">&gt;|</a></li></ul></div>
+        <div class="col-sm-6 text-right">Showing 1 to 15 of 36 (3 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>

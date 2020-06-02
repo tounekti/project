@@ -1,0 +1,425 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+	<div id="product-category" class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://rekords.net/"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325">New Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_467">Jazz</a></li>
+      </ul>
+  <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="list-group">
+     
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+        <a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item active">&nbsp;&nbsp;&nbsp;- New Vinyl</a> 
+       
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item">&nbsp;&nbsp;&nbsp;- Used Vinyl</a>
+             <a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+    </div>
+
+    <div class="swiper-viewport">
+  <div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+    <div class="swiper-wrapper"></div>
+  </div>
+</div> </aside>
+
+                <div id="content" class="col-sm-9">
+      <h2>Jazz</h2>
+                        <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-sort">Sort By:</label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_467&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33515"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33515"><img src="https://rekords.net/image/cache/data/33515-228x228.jpg" alt="BadBadNotGood - III, 2xLP" title="BadBadNotGood - III, 2xLP" class="img-responsive"></a><img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive"></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33515">BadBadNotGood - III, 2xLP</a></h4>
+                <p></p>
+		    								<p>Catalog#: IL2019</p>
+												<p>Press: US</p>
+												<p>Year: 2014</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK250.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33515" onclick="cart.add('33515', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Sold Out</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-33516"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33516"><img src="https://rekords.net/image/cache/data/33516-228x228.jpg" alt="BadBadNotGood - LateNightTales, 2xLP" title="BadBadNotGood - LateNightTales, 2xLP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=33516">BadBadNotGood - LateNightTales, 2xLP</a></h4>
+                <p></p>
+		    								<p>Catalog#: ALNLP46</p>
+												<p>Press: UK &amp; Europe</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK250.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-33516" onclick="cart.add('33516', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31428"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31428"><img src="https://rekords.net/image/cache/data/31428-228x228.jpg" alt="Bobbi Humphrey - Blacks And Blues, LP, Reissue" title="Bobbi Humphrey - Blacks And Blues, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31428">Bobbi Humphrey - Blacks And Blues, LP, Reissue</a></h4>
+                <p>Blue Note reissue from 2019.</p>
+		    								<p>Catalog#: 7752697</p>
+												<p>Press: US</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31428" onclick="cart.add('31428', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30818"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30818"><img src="https://rekords.net/image/cache/data/30818-228x228.jpg" alt="Bremer/McCoy - Enhed, LP, Repress" title="Bremer/McCoy - Enhed, LP, Repress" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30818">Bremer/McCoy - Enhed, LP, Repress</a></h4>
+                <p>2019 Genoptryk. Enhed er en modal jazzplade med inspiration fra nordisk visetradition, reggae og skandinavisk tungsind. Pladen er det første resultat af samarbejdet mellem de to unge, men allerede anerkendte, musikere og komponister: bassist Jonathan Bremer og tangentspiller Morten McCoy. Pladen er udgivet på Raske Penges pladeselskab Raske Plader og har fået overvældende positiv omtale af bl.a. JazzNyt, Information og den internationale jazz autoritet Gilles Peterson fra BBC.
+</p>
+		    								<p>Catalog#: RASP 003</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30818" onclick="cart.add('30818', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30722"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30722"><img src="https://rekords.net/image/cache/data/30722-228x228.jpg" alt="Bremer/McCoy - Forsvinder, LP, Repress" title="Bremer/McCoy - Forsvinder, LP, Repress" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30722">Bremer/McCoy - Forsvinder, LP, Repress</a></h4>
+                <p>Jonathan Bremer og Morten McCoy har kendt hinanden siden 6-årsalderen og det er deres symbiotiske sammenspil som danner fundamentet for udgivelsen. Forsvinder består af 11 originalkompositioner med titler som “Gaia” og “I Eet”. Desuden rummer udgivelsen et covernummer, nemlig André 3000 (OutKast)’s smukke She’s Alive. Bremer/McCoy har længe været fascineret af den varme lyd man får af at arbejde analogt med spolebånd. Pladen er derfor holdt helt analog fra optagelse til tryk.
+</p>
+		    								<p>Catalog#: RASP008</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30722" onclick="cart.add('30722', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30723"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30723"><img src="https://rekords.net/image/cache/data/30723-228x228.jpg" alt="Bremer/McCoy - Ordet, LP, Repress" title="Bremer/McCoy - Ordet, LP, Repress" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30723">Bremer/McCoy - Ordet, LP, Repress</a></h4>
+                <p>Eventhough instrumental music has no words it can still transmit feelings, moods and even messages through tones and rhythm. That phenomenon is what Bremer/McCoy have set themselves out to discover on their second release. “Ordet”, which is danish for “The Word”. On “Ordet” the soundscape is more dub-inspired than on the first release “Enhed”. The record was recorded in a homemade studio in a small cabin far out in the swedish woods over 8 days in december 2014. The record is produced and recorded by Bremer/McCoy, mixed and mastered by Jonas Nakel and the art direction is courtesy of Yaqup Oxbjr.
+</p>
+		    								<p>Catalog#: RASP005</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30723" onclick="cart.add('30723', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30807"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30807"><img src="https://rekords.net/image/cache/data/30807-228x228.jpg" alt="Bremer/McCoy - Utopia, LP" title="Bremer/McCoy - Utopia, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30807">Bremer/McCoy - Utopia, LP</a></h4>
+                <p>Bremer/McCoy have released three LPs and one 7''-single since they started in 2013. The Danish duo, consisting of Jonathan Bremer (acoustic bass) and Morten McCoy (piano, wurlitzer and tape-delays), plays melodic and meditative music. In respect of the deeper vibrations, they travel with their custom built soundsystem. The duo has its base in Copenhagen and started releasing three LP’s on the friendly label Raske Plader in 2013. Their 4th album “Utopia”, will have a worldwide release on David Byrne's label Luaka Bop.
+</p>
+		    								<p>Catalog#: LB0095</p>
+												<p>Press: US</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30807" onclick="cart.add('30807', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31430"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31430"><img src="https://rekords.net/image/cache/data/31430-228x228.jpg" alt="Fela &amp; Africa 70 - Coffin For Head Of State, LP, Reissue" title="Fela &amp; Africa 70 - Coffin For Head Of State, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31430">Fela &amp; Africa 70 - Coffin For Head Of State, LP, Reissue</a></h4>
+                <p>2017 reissue on Knitting Factory Records.</p>
+		    								<p>Catalog#: KFR2036-1</p>
+												<p>Press: US</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31430" onclick="cart.add('31430', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31460"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31460"><img src="https://rekords.net/image/cache/data/31460-228x228.jpg" alt="Hozan Yamamoto With Sharps &amp; Flats - Beautiful Bamboo-Flute, LP, Reissue" title="Hozan Yamamoto With Sharps &amp; Flats - Beautiful Bamboo-Flute, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31460">Hozan Yamamoto With Sharps &amp; Flats - Beautiful Bamboo-Flute, LP, Reissue</a></h4>
+                <p>Seminal Japanese jazz album from 1971. Journeys through jazz fusion, soul and big band moods. Impossible to obtain in its original format these days. Official Mr Bongo reissue. Hozan Yamamoto was recognised as a "living national treasure" by the Japanese government in 2002. This highly sought-after album from the Japanese wood flute player is more upbeat and swinging than some of his other records. The big band he recorded this album with (Sharps &amp; Flats) played a big part in the genesis of the album’s groove. Forming in 1951, they helped to make jazz popular in Japan after World War II. Yamamoto's flute lines weave over the heavy brass sound and groove, creating an MPS label blending of funky jazz and Japanese vibes. The closest comparison would be Dorothy Ashby's grooviest albums for Chess / Cadet – substituting Yamamoto’s flute for the harp.
+</p>
+		    								<p>Catalog#: MRBLP214</p>
+												<p>Press: UK</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK210.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31460" onclick="cart.add('31460', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31432"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31432"><img src="https://rekords.net/image/cache/data/31432-228x228.jpg" alt="James Mason - Rhythm Of Life, LP, Reissue" title="James Mason - Rhythm Of Life, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31432">James Mason - Rhythm Of Life, LP, Reissue</a></h4>
+                <p>2019 reissue of this classic LP.</p>
+		    								<p>Catalog#: CR189</p>
+												<p>Press: US</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK220.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31432" onclick="cart.add('31432', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31191"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31191"><img src="https://rekords.net/image/cache/data/31191-228x228.jpg" alt="Mads Egetoft - Doom, LP" title="Mads Egetoft - Doom, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31191">Mads Egetoft - Doom, LP</a></h4>
+                <p>Ny dansk plade. Ligner sgu da noget sygt gangstashit på coveret, men er det det? Kun trykt i 100 eksemplar.</p>
+		    												<p>Press: Denmark</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK175.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31191" onclick="cart.add('31191', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31453"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31453"><img src="https://rekords.net/image/cache/data/31453-228x228.jpg" alt="Minoru Muraoka - Bamboo, LP, Reissue" title="Minoru Muraoka - Bamboo, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31453">Minoru Muraoka - Bamboo, LP, Reissue</a></h4>
+                <p>Japanese jazz/breakbeat, folkloric mega-rarity as hallowed the likes of DJ Shadow, Cut Chemist, Egon and co. Uniquely combines traditional Japanese instrumentation with Western jazz influences. Minoru Muraoka plays ‘shakuhachi’ – a traditional bamboo Japanese flute – joined by his band members accompanying him on the ‘koto’ (strings) and ‘tsutsumi’ (drum) amongst others, to create their ‘Shakuhachi Jazz’ sound. Includes cover versions of very well-known jazz &amp; pop classics, coupled with two original songs.
+</p>
+		    								<p>Catalog#: MRBLP195</p>
+												<p>Press: UK &amp; Europe</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">  <span class="price-new">DKK168.00</span> <span class="price-old">DKK210.00</span>                                  </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31453" onclick="cart.add('31453', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-32106"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32106"><img src="https://rekords.net/image/cache/data/32106-228x228.jpg" alt="Yussef Kamaal - Black Focus, LP, Repress" title="Yussef Kamaal - Black Focus, LP, Repress" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=32106">Yussef Kamaal - Black Focus, LP, Repress</a></h4>
+                <p>The borders between London's musical tribes have always been porous. For Yussef Kamaal, the sound of the capital - with its hum of jungle, grime and broken beat - has shaped a selftaught, UKtipped approach to playing jazz. In the states, the genre’s longrunning to-and-fro with hip hop - from Robert Glasper to Kamasi Washington - has reimagined it within US culture. On Black Focus, Yussef Kamaal frame jazz inside the basssaturated, pirate radio broadcasts of London.
+</p>
+		    								<p>Catalog#: BWOOD0157LP</p>
+												<p>Press: UK</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-32106" onclick="cart.add('32106', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"></div>
+        <div class="col-sm-6 text-right">Showing 1 to 13 of 13 (1 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>

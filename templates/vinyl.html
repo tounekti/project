@@ -1,0 +1,527 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+	<div id="product-category" class="container">
+		<ul class="breadcrumb">
+			<li>
+				<a href="https://rekords.net/"><i class="fa fa-home"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a>
+			</li>
+		</ul>
+		<div class="row">
+			<aside id="column-left" class="col-sm-3 hidden-xs">
+				<div class="list-group">
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item">&nbsp;&nbsp;&nbsp;- New Vinyl</a>
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item">&nbsp;&nbsp;&nbsp;- Used Vinyl</a>
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+					<a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+				</div>
+
+				<div class="swiper-viewport">
+					<div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+						<div class="swiper-wrapper"></div>
+					</div>
+				</div> 
+			</aside>
+
+            <div id="content" class="col-sm-9">
+				<h2>Vinyl</h2>
+                <h3>Refine Search</h3>
+				<div class="row">
+					<div class="col-sm-3">
+						<ul>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_325">New Vinyl</a>
+							</li>
+							<li>
+								<a href="https://rekords.net/index.php?route=product/category&amp;path=396_323">Used Vinyl</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+                <div class="row">
+					<div class="col-md-2 col-sm-6 hidden-xs">
+						<div class="btn-group btn-group-sm">
+							<button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List">
+								<i class="fa fa-th-list"></i>
+							</button>
+							<button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid">
+								<i class="fa fa-th"></i>
+							</button>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					</div>
+					<div class="col-md-4 col-xs-6">
+						<div class="form-group input-group input-group-sm">
+							<label class="input-group-addon" for="input-sort">Sort By:</label>
+							<select id="input-sort" class="form-control" onchange="location = this.value;">
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+								<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="form-group input-group input-group-sm">
+							<label class="input-group-addon" for="input-limit">Show:</label>
+								<select id="input-limit" class="form-control" onchange="location = this.value;">
+									<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;limit=15" selected="selected">15</option>
+									<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;limit=25">25</option>
+									<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;limit=75">75</option>
+									<option value="https://rekords.net/index.php?route=product/category&amp;path=396&amp;limit=100">100</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">     
+						<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<div class="product-thumb">
+								<div class="image" id="image-32400">
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32400">
+										<img src="https://rekords.net/image/cache/data/32400-228x228.jpg" alt="2Pac - Me Against The World, 2xLP, Reissue" title="2Pac - Me Against The World, 2xLP, Reissue" class="img-responsive"></a>
+								</div>
+								<div>
+									<div class="caption">
+										<h4>
+											<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32400">2Pac - Me Against The World, 2xLP, Reissue</a>
+										</h4>
+										<p>Finally a reissue of this classic album by 2pac. Celebrating its 25th anniversary this year! Featuring Dear Mama, So Many Tears, Temptations and of course ”Old School” produced by Soulshock, Ezi Cut and Jay B!
+										</p>
+		    							<p>Catalog#: 602508448898</p>
+										<p>Press: Europe</p>
+										<p>Year: 2020</p>
+										<p>Condition: NEW</p>
+				                        <p class="price">                   DKK220.00
+                                        </p>
+									</div>
+									<div class="button-group">
+										<button type="button" id="button-cart-32400" onclick="cart.add('32400', '1');">
+											<i class="fa fa-shopping-cart"></i>
+											<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+										</button>
+									</div>
+								</div> 
+							</div>
+						</div>
+						<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<div class="product-thumb">
+								<div class="image" id="image-32401">
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32401">
+										<img src="https://rekords.net/image/cache/data/32401-228x228.jpg" alt="Beastie Boys - Hot Sauce Committee Part Two, 2xLP, Reissue" title="Beastie Boys - Hot Sauce Committee Part Two, 2xLP, Reissue" class="img-responsive"></a>
+								</div>
+							<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32401">Beastie Boys - Hot Sauce Committee Part Two, 2xLP, Reissue</a>
+								</h4>
+								<p>
+								</p>
+								<p>Catalog#: 602557727890</p>
+								<p>Press: Europe</p>
+								<p>Year: 2017</p>
+								<p>Condition: NEW</p>
+								<p class="price">  DKK250.00
+								</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-32401" onclick="cart.add('32401', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-32403">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32403">
+								<img src="https://rekords.net/image/cache/data/32403-228x228.jpg" alt="Beastie Boys - Paul's Boutique, LP, Reissue" title="Beastie Boys - Paul's Boutique, LP, Reissue" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32403">Beastie Boys - Paul's Boutique, LP, Reissue</a>
+								</h4>
+								<p>	
+								</p>
+		    					<p>Catalog#: 602577057847</p>
+								<p>Press: Europe</p>
+								<p>Year: 2018</p>
+								<p>Condition: NEW</p>
+				                <p class="price">DKK220.00
+                                </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-32403" onclick="cart.add('32403', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-32402">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32402">
+								<img src="https://rekords.net/image/cache/data/32402-228x228.jpg" alt="Beastie Boys - The In Sound From Way Out!, LP, Reissue" title="Beastie Boys - The In Sound From Way Out!, LP, Reissue" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=32402">Beastie Boys - The In Sound From Way Out!, LP, Reissue</a>
+								</h4>
+								<p></p>
+		    					<p>Catalog#: 602557727920</p>
+								<p>Press: Europe</p>
+								<p>Year: 2017</p>
+								<p>Condition: NEW</p>
+				                <p class="price"> DKK200.00
+								</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-32402" onclick="cart.add('32402', '1');">
+									<i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-29838">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29838">
+								<img src="https://rekords.net/image/cache/data/29838-228x228.jpg" alt="Boogie Down Productions - By All Means Necessary, LP, Reissue" title="Boogie Down Productions - By All Means Necessary, LP, Reissue" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29838">Boogie Down Productions - By All Means Necessary, LP, Reissue</a>
+								</h4>
+									<p>Classic album. 180 gram audiophile vinyl resissue.</p>
+									<p>Catalog#: MOVLP1460</p>
+									<p>Press: Europe</p>
+									<p>Year: 2015</p>
+									<p>Condition: NEW</p>
+									<p class="price">DKK180.00
+									</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-29838" onclick="cart.add('29838', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-29844">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29844">
+								<img src="https://rekords.net/image/cache/data/29844-228x228.jpg" alt="Fiend - Still Cookin', LP" title="Fiend - Still Cookin', LP" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29844">Fiend - Still Cookin', LP</a>
+								</h4>
+								<p>Limited edition vinyl pressing (only 100 made!) of the new album from former No Limit Records artist and ex-Ruff Ryder, Fiend! Includes guest performances by G-Unit member Young Buck, the legendary Daz Dillinger, and DC superstar Wale!</p>
+		    					<p>Catalog#: CLO 1081</p>
+								<p>Press: US</p>
+								<p>Year: 2019</p>
+								<p>Condition: NEW</p>
+				                <p class="price">                   DKK300.00
+                                </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-29844" onclick="cart.add('29844', '1');">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-29845">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29845">
+								<img src="https://rekords.net/image/cache/data/29845-228x228.jpg" alt="Freddie Gibbs &amp; Madlib - Bandana, LP" title="Freddie Gibbs &amp; Madlib - Bandana, LP" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29845">Freddie Gibbs &amp; Madlib - Bandana, LP</a>
+								</h4>
+								<p>Madlib, the prolific producer and adept sampler with a record collection spanning all genres and eras and Freddie Gibbs, the gravel-voiced braggadocios rapper, a vocal athlete. As a pair, they exude a natural chemistry and craft an alchemical music. Reunited after their widely celebrated 2014 album Piñata, Gibbs and Madlib are back with Bandana, a brand new collaboration for 2019. Bandana includes first single, “Flat Tummy Tea,” which received critical praise upon release from the likes of Rolling Stone, Billboard, Vulture, Pitchfork, FADER, GQ, and more. The album will also include features from Pusha T, Killer Mike, Yasiin Bey, and Black Thought and more
+								</p>
+								<p>Catalog#: 1907593492-1</p>
+								<p>Press: Europe</p>
+								<p>Year: 2019</p>
+								<p>Condition: NEW</p>
+				                <p class="price">                   DKK170.00
+                                </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-29845" onclick="cart.add('29845', '1');">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33177">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33177">
+								<img src="https://rekords.net/image/cache/data/33177-228x228.jpg" alt="Ivan Ave - Double Goodbyes, LP" title="Ivan Ave - Double Goodbyes, LP" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33177">Ivan Ave - Double Goodbyes, LP</a>
+								</h4>
+								<p>Ivan Ave's new album “Double Goodbyes” is finally here! A 36 minute long master piece boasting Ivan’s jazzy and soulful trademark sound, fresh for 2020. This one less electronic sounding than his previous solo efforts, heavily infused by the mid-eighties jazz-funk, AOR &amp; yacht rock sounds. With a note of levity, equally influential were the aesthetics of daytime TV shopping and late 80s -early 90s new age. “It’s easy to mock, due to some of its pompous cheesiness” says Ivan. “But as I get older, experiencing life’s ups &amp; downs, the essence of it feels genuine”. Seven out of eleven tracks on the album came to life in Ivan’s studio last summer together with guitarist Sasac, while others are the product of his link with musicians in Alabama, Melbourne and LA. “Double Goodbyes" seems to almost mark a break with his rap roots. But perhaps not. Ave’s dilemma surfaces in the song “Find Me pt. III”; “how many times do you say goodbye before it means hello?”. Although partly an affectionate goodbye to rap, this record also welcomes exciting, new directions, and establishes Ivan in a much broader musical universe. The album features top notch musicians such as Sasac, Byron The Aquarius, Mndsgn, Devin Morrison, Kiefer, Clever Austin (Hiatus Kaiyote), Joyce Wrice and more. When Ivan guested the podcast of legendary producer, songwriter and member of A Tribe Called Quest, Ali Shaheed Muhammad, described his music as “deeply therapeutic”. The same can be said for his latest offering, «Double Goodbyes».
+								</p>
+								<p>Catalog#: MI-019</p>
+								<p>Press: Norway</p>
+								<p>Year: 2020</p>
+								<p>Condition: NEW</p>
+								<p class="price">                   DKK220.00
+								</p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-33177" onclick="cart.add('33177', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33180">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33180">
+								<img src="https://rekords.net/image/cache/data/33180-228x228.jpg" alt="Kanye West - 808s &amp; Heartbreak, 2xLP, Reissue" title="Kanye West - 808s &amp; Heartbreak, 2xLP, Reissue" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33180">Kanye West - 808s &amp; Heartbreak, 2xLP, Reissue</a>
+								</h4>
+								<p>Reissue of the 4th solo album by Kanye West</p>
+		    					<p>Catalog#: 602517872813</p>
+								<p>Press: Europe</p>
+								<p>Year: 2020</p>
+								<p>Condition: NEW</p>
+				                <p class="price">                   DKK280.00
+                                </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-33180" onclick="cart.add('33180', '1');">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33179">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33179">
+								<img src="https://rekords.net/image/cache/data/33179-228x228.jpg" alt="Kanye West - Jesus Is King, LP" title="Kanye West - Jesus Is King, LP" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33179">Kanye West - Jesus Is King, LP</a>
+								</h4>
+								<p>Finally a vinyl vesion of Kanye Wests album from 2019. Pressed on blue wax.</p>
+		    					<p>Press: UK, Europe &amp; US</p>
+								<p>Year: 2020</p>
+								<p>Condition: NEW</p>
+				                <p class="price"> DKK190.00
+                                </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-33179" onclick="cart.add('33179', '1');">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-33178">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33178">
+								<img src="https://rekords.net/image/cache/data/33178-228x228.jpg" alt="Kanye West - Late Registration, 2xLP, Reissue" title="Kanye West - Late Registration, 2xLP, Reissue" class="img-responsive"></a>
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33178">Kanye West - Late Registration, 2xLP, Reissue</a>
+								</h4>
+								<p>Reissue of the 2nd solo album by Kanye West. Loaded with hits; Gold Digger, Touch The Sky, Diamonds From Sierra Leone…</p>
+		    					<p>Catalog#: 602498824047</p>
+								<p>Press: Europe</p>
+								<p>Year: 2018</p>
+								<p>Condition: NEW</p>
+				                <p class="price">                   DKK250.00
+                                </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-33178" onclick="cart.add('33178', '1');">
+									<i class="fa fa-shopping-cart"></i> 
+									<span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+						<div class="image" id="image-29839">
+							<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29839">
+								<img src="https://rekords.net/image/cache/data/29839-228x228.jpg" alt="PRhyme - PRhyme, LP" title="PRhyme - PRhyme, LP" class="img-responsive"></a>
+								<img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+						</div>
+						<div>
+							<div class="caption">
+								<h4>
+									<a href="https://rekords.net/index.php?route=product/product&amp;product_id=29839">PRhyme - PRhyme, LP</a>
+								</h4>
+								<p>Prhyme is Royce Da 5’9 &amp; DJ Premier. Album featuring Slaugherhouse, Schoolboy Q, Ab Soul and Killer Mike.
+								</p>
+		    					<p>Catalog#: Prhyme01LP</p>
+								<p>Press: US</p>
+								<p>Year: 2014</p>
+								<p>Condition: NEW</p>
+				                <p class="price">                   DKK230.00
+                                </p>
+							</div>
+							<div class="button-group">
+								<button type="button" id="button-cart-29839" onclick="cart.add('29839', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+								</button>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="product-thumb">
+							<div class="image" id="image-33187">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33187">
+									<img src="https://rekords.net/image/cache/data/33187-228x228.jpg" alt="Scratchmagic - Nu Det Ikk Sjovt Længere, LP (Rød med sort swirl)" title="Scratchmagic - Nu Det Ikk Sjovt Længere, LP (Rød med sort swirl)" class="img-responsive"></a>
+									<img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33187">Scratchmagic - Nu Det Ikk Sjovt Længere, LP (Rød med sort swirl)</a>
+									</h4>
+									<p>Rød med sort swirl vinyl. Trykt i 100 eksemplar (70 til salg).&nbsp;To legender mødes i en mørk og kold kælder et sted på en ø i noget vand under sverige. Det er okay. Der strøm, to stole, arbejdsstation, “lidt” ,pot, hash etc” nogle sixpacks og nogle forskellig fyldte forskellige flasker-noget.  Scratchmagic har gået med juicen i lang tid. Brygget og brygget og mestret sin kogekunst alt imens at sjollere er blevet forbigået i bedste aikido-med-kaffe-i-den-ene-og-plader-i-den-anden-stilen.  Tiden er inde. Fede Poul får overbevist Scratch om at få lov til at sammensætte en ren kamin af den pureste ild, med Scratch beats MOD at Fede Poul hiver sin fætter Khal Allan og andre RAPHOVEDER fra nær og fjern med sig ind under lastbilen. For der satma’ noget tunghed der skal løftes. Og hvor ellers, kan noget så tungt løftes SÅ dope i flok- end i Centeret? Med værdier og udfordringer af samme leges og flirtes der både nænsomt LOL, dyrisk og voldsomt med det danske sprog - besættes hvert enkelt beat som sit eget sørøverskib i en flåde af mo’fuckas man ikk kan fuck med.Sammen med Centeret udgiver Rekords Records denne cementering af en plade bestående af Nogle at de beskidteste bouncende beats der flænser sig igennem sin egen musikarv og leverer gadekøkken gourmet. Hip Hop fra hånden og ånden af den danske legende Scratchmagic og Centeret.
+									</p>
+		    						<p>Catalog#: REKREC015</p>
+									<p>Press: DK</p>
+									<p>Year: 2020</p>
+									<p>Condition: NEW</p>
+				                    <p class="price">                   DKK220.00
+                                    </p>
+								</div>
+								<div class="button-group">
+									<button type="button" id="button-cart-33187" onclick="cart.add('33187', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+										<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="product-thumb">
+							<div class="image" id="image-33188">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33188">
+									<img src="https://rekords.net/image/cache/data/33188-228x228.jpg" alt="Scratchmagic - Nu' Det Ikke Sjovt Længere, LP (Sort)" title="Scratchmagic - Nu' Det Ikke Sjovt Længere, LP (Sort)" class="img-responsive"></a>
+									<img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33188">Scratchmagic - Nu' Det Ikke Sjovt Længere, LP (Sort)</a>
+									</h4>
+									<p>Sort vinyl. Trykt i 150 eksemplar (135 til salg).&nbsp;To legender mødes i en mørk og kold kælder et sted på en ø i noget vand under sverige. Det er okay. Der strøm, to stole, arbejdsstation, “lidt” ,pot, hash etc” nogle sixpacks og nogle forskellig fyldte forskellige flasker-noget.  Scratchmagic har gået med juicen i lang tid. Brygget og brygget og mestret sin kogekunst alt imens at sjollere er blevet forbigået i bedste aikido-med-kaffe-i-den-ene-og-plader-i-den-anden-stilen.  Tiden er inde. Fede Poul får overbevist Scratch om at få lov til at sammensætte en ren kamin af den pureste ild, med Scratch beats MOD at Fede Poul hiver sin fætter Khal Allan og andre RAPHOVEDER fra nær og fjern med sig ind under lastbilen. For der satma’ noget tunghed der skal løftes. Og hvor ellers, kan noget så tungt løftes SÅ dope i flok- end i Centeret? Med værdier og udfordringer af samme leges og flirtes der både nænsomt LOL, dyrisk og voldsomt med det danske sprog - besættes hvert enkelt beat som sit eget sørøverskib i en flåde af mo’fuckas man ikk kan fuck med.Sammen med Centeret udgiver Rekords Records denne cementering af en plade bestående af Nogle at de beskidteste bouncende beats der flænser sig igennem sin egen musikarv og leverer gadekøkken gourmet. Hip Hop fra hånden og ånden af den danske legende Scratchmagic og Centeret.A1 IntroA2 Intro To
+									</p>
+		    						<p>Catalog#: REKREC015</p>
+									<p>Press: DK</p>
+									<p>Year: 2020</p>
+									<p>Condition: NEW</p>
+				                    <p class="price">                   DKK180.00
+                                    </p>
+								</div>
+								<div class="button-group">
+									<button type="button" id="button-cart-33188" onclick="cart.add('33188', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+										<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="product-thumb">
+							<div class="image" id="image-33189">
+								<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33189">
+									<img src="https://rekords.net/image/cache/data/33189-228x228.jpg" alt="Scratchmagic - Nu' Det Ikke Sjovt Længere, Test tryk" title="Scratchmagic - Nu' Det Ikke Sjovt Længere, Test tryk" class="img-responsive"></a><img style="position:absolute; top: 20px; left:20%; max-width: 60%; overflow:hidden;" src="https://rekords.net/image/catalog/widsoldout_228x110.png" class="img-responsive">
+							</div>
+							<div>
+								<div class="caption">
+									<h4>
+										<a href="https://rekords.net/index.php?route=product/product&amp;product_id=33189">Scratchmagic - Nu' Det Ikke Sjovt Længere, Test tryk</a>
+									</h4>
+									<p>Test tryk. Trykt i 10 eksemplar (5 til salg).&nbsp;To legender mødes i en mørk og kold kælder et sted på en ø i noget vand under sverige. Det er okay. Der strøm, to stole, arbejdsstation, “lidt” ,pot, hash etc” nogle sixpacks og nogle forskellig fyldte forskellige flasker-noget.  Scratchmagic har gået med juicen i lang tid. Brygget og brygget og mestret sin kogekunst alt imens at sjollere er blevet forbigået i bedste aikido-med-kaffe-i-den-ene-og-plader-i-den-anden-stilen.  Tiden er inde. Fede Poul får overbevist Scratch om at få lov til at sammensætte en ren kamin af den pureste ild, med Scratch beats MOD at Fede Poul hiver sin fætter Khal Allan og andre RAPHOVEDER fra nær og fjern med sig ind under lastbilen. For der satma’ noget tunghed der skal løftes. Og hvor ellers, kan noget så tungt løftes SÅ dope i flok- end i Centeret? Med værdier og udfordringer af samme leges og flirtes der både nænsomt LOL, dyrisk og voldsomt med det danske sprog - besættes hvert enkelt beat som sit eget sørøverskib i en flåde af mo’fuckas man ikk kan fuck med.Sammen med Centeret udgiver Rekords Records denne cementering af en plade bestående af Nogle at de beskidteste bouncende beats der flænser sig igennem sin egen musikarv og leverer gadekøkken gourmet. Hip Hop fra hånden og ånden af den danske legende Scratchmagic og Centeret.
+									</p>
+		    						<p>Catalog#: REKREC015</p>
+									<p>Press: DK</p>
+									<p>Year: 2020</p>
+									<p>Condition: NEW</p>
+				                    <p class="price">                   DKK500.00
+                                    </p>
+								</div>
+								<div class="button-group">
+									<button type="button" id="button-cart-33189" onclick="cart.add('33189', '1');" disabled="" style="background: rgb(98, 98, 98) url(&quot;&quot;) no-repeat scroll right top;">
+										<i class="fa fa-shopping-cart"></i> 
+										<span class="hidden-xs hidden-sm hidden-md">Sold Out</span>
+									</button>
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 text-left"></div>
+					<div class="col-sm-6 text-right">Showing 1 to 15 of 15 (1 Pages)</div>
+				</div>
+            </div>
+		</div>
+	</div>

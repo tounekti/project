@@ -1,0 +1,463 @@
+$def with (urlapp)
+
+$var urlapp: $urlapp
+
+	<div id="product-category" class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://rekords.net/"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396">Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325">New Vinyl</a></li>
+        <li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_452">Funk / Soul</a></li>
+      </ul>
+  <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="list-group">
+     
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396" class="list-group-item active">Vinyl</a> 
+        <a href="https://rekords.net/index.php?route=product/category&amp;path=396_325" class="list-group-item active">&nbsp;&nbsp;&nbsp;- New Vinyl</a> 
+       
+  <a href="https://rekords.net/index.php?route=product/category&amp;path=396_323" class="list-group-item">&nbsp;&nbsp;&nbsp;- Used Vinyl</a>
+             <a href="https://rekords.net/index.php?route=product/category&amp;path=395" class="list-group-item">Tapes</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=155" class="list-group-item">CD &amp; DVD</a>
+       <a href="https://rekords.net/index.php?route=product/category&amp;path=442" class="list-group-item">Merch &amp; Clothing</a>
+    </div>
+
+    <div class="swiper-viewport">
+  <div id="banner0" class="swiper-container swiper-container-horizontal swiper-container-fade">
+    <div class="swiper-wrapper"></div>
+  </div>
+</div> </aside>
+
+                <div id="content" class="col-sm-9">
+      <h2>Funk / Soul</h2>
+                        <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default active" data-toggle="tooltip" title="" data-original-title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-sort">Sort By:</label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-addon" for="input-limit">Show:</label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              
+              
+              
+                                          
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;limit=15" selected="selected">15</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;limit=25">25</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;limit=50">50</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;limit=75">75</option>
+              
+              
+              
+                                                        
+              
+              
+              <option value="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;limit=100">100</option>
+              
+              
+              
+                                        
+            
+            
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">         <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-27615"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27615"><img src="https://rekords.net/image/cache/data/27615-228x228.jpg" alt="Abdullah S - Handmade Heavyweight Boogie 4 Babies, LP" title="Abdullah S - Handmade Heavyweight Boogie 4 Babies, LP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=27615">Abdullah S - Handmade Heavyweight Boogie 4 Babies, LP</a></h4>
+                <p>New album from the Danish Funk &amp; Soul king Abdullah S (Booty Cologne)! Dont sleep!</p>
+		    								<p>Catalog#: W.I.LLP001</p>
+												<p>Press: Denmark</p>
+												<p>Year: 2018</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-27615" onclick="cart.add('27615', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31152"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31152"><img src="https://rekords.net/image/cache/data/31152-228x228.jpg" alt="Alice Clark - Alice Clark, LP, Reissue, Remastered" title="Alice Clark - Alice Clark, LP, Reissue, Remastered" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31152">Alice Clark - Alice Clark, LP, Reissue, Remastered</a></h4>
+                <p>First official worldwide LP reissue of Alice Clark's highly sought-after Soul Jazz classic produced by Mainstream Records' Bob Shad in 1972. Featuring original artwork, remastered sound, repress without the booklet that was part of the limited RSD edition.</p>
+		    								<p>Catalog#: MRL 362</p>
+												<p>Press: Europe</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK250.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31152" onclick="cart.add('31152', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31193"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31193"><img src="https://rekords.net/image/cache/data/31193-228x228.jpg" alt="Aloe Blacc - Good Things, 2xLP" title="Aloe Blacc - Good Things, 2xLP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31193">Aloe Blacc - Good Things, 2xLP</a></h4>
+                <p>Including the single I Need A Dollar.
+</p>
+		    								<p>Catalog#: 06025 2754544 8</p>
+												<p>Press: Europe</p>
+												<p>Year: 2010</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31193" onclick="cart.add('31193', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31830"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31830"><img src="https://rekords.net/image/cache/data/31830-228x228.jpg" alt="Amy Winehouse - Back To Black, LP, Reissue" title="Amy Winehouse - Back To Black, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31830">Amy Winehouse - Back To Black, LP, Reissue</a></h4>
+                <p>Reissue.
+</p>
+		    								<p>Catalog#: 173 412 8</p>
+												<p>Press: Europe</p>
+												<p>Year: 2018</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK150.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31830" onclick="cart.add('31830', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31186"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31186"><img src="https://rekords.net/image/cache/data/31186-228x228.jpg" alt="Arthur Verocai - Arthur Verocai, LP, Remastered, Repress" title="Arthur Verocai - Arthur Verocai, LP, Remastered, Repress" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31186">Arthur Verocai - Arthur Verocai, LP, Remastered, Repress</a></h4>
+                <p>Re-Issue of Rare 1972 Brazilian Pop Gem. "I could listen to the album everyday for the rest of my life" - Madlib.
+</p>
+		    								<p>Catalog#: MRBLP133</p>
+												<p>Press: UK</p>
+												<p>Year: 2018</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31186" onclick="cart.add('31186', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30806"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30806"><img src="https://rekords.net/image/cache/data/30806-228x228.jpg" alt="Baby Huey - The Baby Huey Story (The Living Legend), LP, Reissue" title="Baby Huey - The Baby Huey Story (The Living Legend), LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30806">Baby Huey - The Baby Huey Story (The Living Legend), LP, Reissue</a></h4>
+                <p>Reissue. Heavy sampled classic soul LP.
+</p>
+		    								<p>Catalog#: MOVLP1639</p>
+												<p>Press: Europe</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK190.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30806" onclick="cart.add('30806', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31439"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31439"><img src="https://rekords.net/image/cache/data/31439-228x228.jpg" alt="Benis Cletin - Jungle Magic, LP, Reissue" title="Benis Cletin - Jungle Magic, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31439">Benis Cletin - Jungle Magic, LP, Reissue</a></h4>
+                <p>Reissue of rare 1979 Nigerian LP.</p>
+		    								<p>Catalog#: PMG019LP</p>
+												<p>Press: Austria</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK170.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31439" onclick="cart.add('31439', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-28837"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28837"><img src="https://rekords.net/image/cache/data/28837-228x228.jpg" alt="Dam-Funk - Invite The Light, 3xLP" title="Dam-Funk - Invite The Light, 3xLP" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=28837">Dam-Funk - Invite The Light, 3xLP</a></h4>
+                <p>Second full length album from Dam-Funk. 20-track, 80-minute album features Snoop Dogg, Q-Tip, Flea, Ariel Pink, Junie Morrison, Jody Watley, Computer Jay, Nite Jewel, JimiJames, Jane Jupiter, Novena Carmel, Leon Sylvers III and IV. Design by Freddy Anzures.
+</p>
+		    								<p>Catalog#: STH2358</p>
+												<p>Press: US</p>
+												<p>Year: 2015</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK280.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-28837" onclick="cart.add('28837', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31457"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31457"><img src="https://rekords.net/image/cache/data/31457-228x228.jpg" alt="Ebo Taylor Jnr With Wuta Wazutu - Gotta Take It Cool, LP, Reissue" title="Ebo Taylor Jnr With Wuta Wazutu - Gotta Take It Cool, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31457">Ebo Taylor Jnr With Wuta Wazutu - Gotta Take It Cool, LP, Reissue</a></h4>
+                <p>Tough, mid-tempo Ghanaian funk &amp; Highlife grooves from Ebo Taylor Junior, son of the mighty Ebo Taylor. Originally released in 1978; now extremely difficult and expensive to find in its original form.
+</p>
+		    								<p>Catalog#: MRBLP210</p>
+												<p>Press: UK</p>
+												<p>Year: 2019</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31457" onclick="cart.add('31457', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31429"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31429"><img src="https://rekords.net/image/cache/data/31429-228x228.jpg" alt="Fela Kuti - Army Arrangement, LP, Reissue" title="Fela Kuti - Army Arrangement, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31429">Fela Kuti - Army Arrangement, LP, Reissue</a></h4>
+                <p>2017 reissue on Knitting Factory Records.</p>
+		    								<p>Catalog#: KFR2041-1</p>
+												<p>Press: US</p>
+												<p>Year: 2017</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31429" onclick="cart.add('31429', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31182"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31182"><img src="https://rekords.net/image/cache/data/31182-228x228.jpg" alt="Fela Ransome-Kuti &amp; The Africa '70 - Afrodisiac, LP, Reissue" title="Fela Ransome-Kuti &amp; The Africa '70 - Afrodisiac, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31182">Fela Ransome-Kuti &amp; The Africa '70 - Afrodisiac, LP, Reissue</a></h4>
+                <p>Reissue, originally released in 1973.</p>
+		    								<p>Catalog#: KFR2008-1</p>
+												<p>Press: US</p>
+												<p>Year: 2016</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31182" onclick="cart.add('31182', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31183"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31183"><img src="https://rekords.net/image/cache/data/31183-228x228.jpg" alt="Fela Ransome-Kuti &amp; The Africa '70 - Na Poi, LP, Reissue" title="Fela Ransome-Kuti &amp; The Africa '70 - Na Poi, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31183">Fela Ransome-Kuti &amp; The Africa '70 - Na Poi, LP, Reissue</a></h4>
+                <p>Reissue, originally released in 1971.</p>
+		    								<p>Catalog#: KFR2021-1</p>
+												<p>Press: US</p>
+												<p>Year: 2015</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK170.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31183" onclick="cart.add('31183', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-31431"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31431"><img src="https://rekords.net/image/cache/data/31431-228x228.jpg" alt="Fela Ransome-Kuti &amp; The Africa 70 - Confusion, LP, Reissue" title="Fela Ransome-Kuti &amp; The Africa 70 - Confusion, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=31431">Fela Ransome-Kuti &amp; The Africa 70 - Confusion, LP, Reissue</a></h4>
+                <p>2014 reissue on Knitting Factory Records.</p>
+		    								<p>Catalog#: KFR2010-1</p>
+												<p>Press: US</p>
+												<p>Year: 2014</p>
+												<p>Condition: NEW</p>
+				                                <p class="price">                   DKK180.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-31431" onclick="cart.add('31431', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30808"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30808"><img src="https://rekords.net/image/cache/data/30808-228x228.jpg" alt="Funkadelic - Cosmic Slop, LP, Reissue" title="Funkadelic - Cosmic Slop, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30808">Funkadelic - Cosmic Slop, LP, Reissue</a></h4>
+                <p>
+</p>
+		    								<p>Catalog#: SEWA 035</p>
+												<p>Press: UK</p>
+																<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30808" onclick="cart.add('30808', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="product-thumb">
+            <div class="image" id="image-30809"><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30809"><img src="https://rekords.net/image/cache/data/30809-228x228.jpg" alt="Funkadelic - Let's Take It To The Stage, LP, Reissue" title="Funkadelic - Let's Take It To The Stage, LP, Reissue" class="img-responsive"></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="https://rekords.net/index.php?route=product/product&amp;product_id=30809">Funkadelic - Let's Take It To The Stage, LP, Reissue</a></h4>
+                <p></p>
+		    								<p>Catalog#: SEWA 044</p>
+												<p>Press: UK</p>
+																<p>Condition: NEW</p>
+				                                <p class="price">                   DKK200.00
+                                                   </p></div>
+              <div class="button-group">
+                <button type="button" id="button-cart-30809" onclick="cart.add('30809', '1');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+              </div>
+            </div> 
+ </div>
+        </div>
+         </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"><ul class="pagination"><li class="active"><span>1</span></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;page=2">2</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;page=3">3</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;page=2">&gt;</a></li><li><a href="https://rekords.net/index.php?route=product/category&amp;path=396_325_452&amp;page=3">&gt;|</a></li></ul></div>
+        <div class="col-sm-6 text-right">Showing 1 to 15 of 37 (3 Pages)</div>
+      </div>
+                  </div>
+    </div>
+</div>
